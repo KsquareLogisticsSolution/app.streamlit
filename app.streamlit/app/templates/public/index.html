@@ -1,0 +1,3788 @@
+<html>
+<h1><b><i>SHIPMENT DETAILS</i></b></h1>
+<body>
+  <div class="container">
+    <h2>Select Container Load</h2>
+    <form>
+      <label class="radio-inline">
+        <input type="radio" name="Select Container Load" >FCL
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="Select Container Load" checked>LCL
+      </label>
+    </form>
+  </div>
+  </body>
+  <body>
+    <label for="Choose Your INCOTERMS"><h2>Choose Your INCOTERMS</h2></label>
+    <select name="Choose Your INCOTERMS" id="Choose Your INCOTERMS" required>
+      <option value="Ex Works">Ex Works(EXW)</option>
+      <option value="Free Carrier">Free Carrier(FCA)</option>
+      <option value="Delivered Duty Paid">Delivered Duty Paid(DDP)</option>
+      <option value="Cost,Insurance,Freight">Cost,Insurance,Freight(CIF)</option>
+    </select>
+  </body>
+<div>
+  <body>
+    <h2>Select Your COMMODITY</h2>
+    <form action="/action_page.php">
+      <input list="commodities" name="browser">
+      <datalist id="commodities" required>
+            <option value="ALUMINIUM">
+            <option value="ANIMAL FAT">
+            <option value="ANIMAL FODDER">
+            <option value="AGRICULTURAL PRODUCE">
+            <option value="ANIMAL PRODUCTS">
+            <option value="ARMS">
+            <option value="ARTIFICIAL FLOWERS">
+            <option value="ARTIFICIAL WAX">
+            <option value="ASBESTOS">
+            <option value="ASH">
+            <option value="AUTO - MOTOR VEHICLES">
+            <option value="AUTO PARTS">
+            <option value="BEDDING">
+            <option value="BEVERAGE">
+            <option value="BOATS">
+            <option value="CABLES">
+            <option value="CANDLES">
+            <option value="CARPETS">
+            <option value="CEMENT">
+            <option value="CERAMICS">
+            <option value="CEREAL">
+            <option value="CHARCOAL">
+            <option value="CHEMICALS">
+            <option value="CLOCKS">
+            <option value="CLOTHING">
+            <option value="COCOA">
+            <option value="COCONUT">
+            <option value="COFFEE">
+            <option value="COPPER">
+            <option value="COSMETICS">
+            <option value="COTTON">
+            <option value="CROCHETED FABRICS">
+            <option value="CRUSTACEANS">
+            <option value="CUSHIONS">
+            <option value="CUTLERY">
+            <option value="DAIRY PRODUCE">
+            <option value="DEFENCE - MILITARY EQUIPMENT">
+            <option value="DENTAL WAX">
+            <option value="DYES">
+            <option value="ELECTRICAL EQUIPMENT">
+            <option value="ELECTRICAL MACHINERY">
+            <option value="EMBROIDERY">
+            <option value="ESSENTIAL OILS">
+            <option value="EXPLOSIVES">
+            <option value="FABRIC">
+            <option value="FOOD GRAINS">
+            <option value="FELT">
+            <option value="FERTILISERS">
+            <option value="FISH">
+            <option value="FLOUR">
+            <option value="FOOTWEAR">
+            <option value="FORKS">
+            <option value="FRUIT">
+            <option value="FURNITURE">
+            <option value="FURSKINS">
+            <option value="GAMES">
+            <option value="GLASS">
+            <option value="GLUE">
+            <option value="HAIR">
+            <option value="HANDBAGS">
+            <option value="HAZARDOUS GOODS">
+            <option value="HEADGEAR">
+            <option value="IRON">
+            <option value="KNITTED FABRICS">
+            <option value="LACE">
+            <option value="LAMPS">
+            <option value="LEAD">
+            <option value="LEATHER">
+            <option value="LIGHTING FITTINGS">
+            <option value="LIME">
+            <option value="LIVE ANIMALS">
+            <option value="LUMBER">
+            <option value="LUBRICANT">
+            <option value="MACHINERY">
+            <option value="MALT">
+            <option value="MATTRESSES">
+            <option value="MEAT">
+            <option value="MECHANICAL APPLIANCES">
+            <option value="MECHANICAL EQUIPMENT">
+            <option value="MEDICAL INSTRUMENTS">
+            <option value="MINERAL FUEL">
+            <option value="MILK">
+            <option value="MINERAL OILS">
+            <option value="MINERAL WAX">
+            <option value="MINERALS">
+            <option value="MUSICAL INSTRUMENTS">
+            <option value="NEWSPAPERS">
+            <option value="NICKEL">
+            <option value="NUCLEAR REACTOR">
+            <option value="NUTS">
+            <option value="orange">
+            <option value="ORE">
+            <option value="ORGANIC CHEMICALS">
+            <option value="ORGANIC MANURE">
+            <option value="OTHER">
+            <option value="PAINT">
+            <option value="PAPER">
+            <option value="PERFUME">
+            <option value="PERISHABLE GOODS">
+            <option value="PHOTOGRAPHY GOODS">
+            <option value="PLANTS">
+            <option value="PLASTER">
+            <option value="PLASTICS">
+            <option value="POLISH">
+            <option value="PRECIOUS METALS">
+            <option value="PRECIOUS STONES">
+            <option value="PULP">
+            <option value="PULSES">
+            <option value="PREPARED WAX">
+            <option value="RAILWAY FIXTURES">
+            <option value="RELIEF MATERIALS (For Disasters)">
+            <option value="RAW HIDES">
+            <option value="RAW SKINS">
+            <option value="RESIN">
+            <option value="RICE">
+            <option value="RIDING-CROPS">
+            <option value="ROPE">
+            <option value="RUBBER">
+            <option value="SADDLES">
+            <option value="SALT">
+            <option value="SEEDS">
+            <option value="SHIPS">
+            <option value="SILK">
+            <option value="SLAG">
+            <option value="SOAP">
+            <option value="SOUND RECORDERS">
+            <option value="SPACECRAFT">
+            <option value="SPICES">
+            <option value="SPIRITS">
+            <option value="SPOONS">
+            <option value="STARCHES">
+            <option value="STEEL">
+            <option value="STEEL PRODUCTS">
+            <option value="STONE">
+            <option value="STRAW">
+            <option value="STUFFED FURNISHINGS">
+      </datalist>
+    </form>
+    </body>
+</div>
+<h2>Select Pickup ORIGIN</h2>
+    <datalist id="suggestions" required>
+<option>Aachen,Germany</option>   
+<option>Aalesund,Denmark</option>
+<option>Aarhus,Denmark</option>
+<option>Abaco,Bahamas</option>
+<option>Abakan,Russia</option>
+<option>Abidjan,Ivory Coast</option>
+<option>Abu Dhabi,United Arab Emirates</option>
+<option>Aburatsu,Japan</option>
+<option>Acajutla,Republic of El Salvador</option>
+<option>Acapulco,Mexico</option>
+<option>Adabiya,Egypt</option>
+<option>Addis Ababa,Ethiopia</option>
+<option>Adelaide,South Australia</option>
+<option>Aden,Yemen</option>
+<option>Agadir,Morocco</option>
+<option>Agira (Inland Point),Italy</option>
+<option>Ahmedabad,India</option>
+<option>Ain Sokhna,Egypt</option>
+<option>Aitutaki,Cook Islands</option>
+<option>Ajman,United Arab Emirates</option>
+<option>Akita,Japan</option>
+<option>Akmola,Kazakhstan</option>
+<option>Aktau,Kazakhstan</option>
+<option>Aktobe,Kazakhstan</option>
+<option>Al Aqabah,Jordan</option>
+<option>AL Iskandariyah,Egypt</option>
+<option>AL Jubail,Saudi Arabia</option>
+<option>Al Khoms,Libya</option>
+<option>Alacahoyuk,Turkey</option>
+<option>Alashankou,Mongolia</option>
+<option>Alaska,United States</option>
+<option>Albany,United States</option>
+<option>Alexandria,Egypt</option>
+<option>Algeciras,Spain</option>
+<option>Algiers,Algeria</option>
+<option>Aliaga,Turkey</option>
+<option>Alicante,Spain</option>
+<option>Almaty,Kazakhstan</option>
+<option>Alotau,Papua New Guinea</option>
+<option>Alsancak,Turkey</option>
+<option>Altamira,Mexico</option>
+<option>Ambarli,Turkey</option>
+<option>Amman,Jordan</option>
+<option>Amsterdam,Netherlands</option>
+<option>An Ping,Guangdong Province</option>
+<option>Anacortes,Washington</option>
+<option>Anchorage,Alaska</option>
+<option>Ancona,Italy</option>
+<option>Anderson,South Carolina</option>
+<option>Angamos,Chile</option>
+<option>Annaba,Algeria</option>
+<option>Anqing,Anhui Province</option>
+<option>Anshun,Guizhou Province</option>
+<option>Antalya,Turkey</option>
+<option>Antigua,Guatemala</option>
+<option>Antofagasta,Chile</option>
+<option>Antwerp,Belgium</option>
+<option>Anzherskaya,Russia</option>
+<option>Aotou,Guangdong Province</option>
+<option>Apapa,Nigeria</option>
+<option>Apia,Western Samoa</option>
+<option>Aqaba,Jordan</option>
+<option>Aqaba Zerka Free Zone,Jordan</option>
+<option>Archangelsk,Russia</option>
+<option>Arica,Chile</option>
+<option>Arieki,Malaysia</option>
+<option>Aruba,Netherlands Antilles</option>
+<option>Ashdod,Israel</option>
+<option>Ashgabat,Turkmenistan</option>
+<option>Ashkelon,Israel</option>
+<option>Ashkhabad,Russia</option>
+<option>Asmara,Ethiopia</option>
+<option>Assab,Ethiopia</option>
+<option>Astana,Kazakhstan</option>
+<option>Astrakhan,Russia</option>
+<option>Asuncion,Paraguay</option>
+<option>Athens,Greece</option>
+<option>Atlanta,Georgia</option>
+<option>Atlixco,Mexico</option>
+<option>Atyrau,Kazakhstan</option>
+<option>Auckland,New Zealand</option>
+<option>Auxerre,France</option>
+<option>Avcilar,Turkey</option>
+<option>Avignon,France</option>
+<option>Azov,Russia</option>
+<option>Baghdad,Iraq</option>
+<option>Baguio,Philippines</option>
+<option>Bahama,Caribbean</option>
+<option>Bahrain,Persian Gulf</option>
+<option>Baku,Azerbaijan</option>
+<option>Balboa,Panama</option>
+<option>Balclutha,New Zealand</option>
+<option>Balikpapan,Indonesia</option>
+<option>Baltimore,Maryland</option>
+<option>Bamako,Mali</option>
+<option>Bangalore,India</option>
+<option>Bangbu,Anhui Province</option>
+<option>Bangkok,Thailand</option>
+<option>Bangkok (BMT),Thailand</option>
+<option>Bangkok (PAT),Thailand</option>
+<option>Bangkok (SCT),Thailand</option>
+<option>Bangkok (TPT),Thailand</option>
+<option>Bangkok (Unithai),Thailand</option>
+<option>Bangkok (UTCT),Thailand</option>
+<option>Bangpakong,Thailand</option>
+<option>Banjul,Gambia</option>
+<option>Baoan,Guangdong Province</option>
+<option>Baoying,Jiangsu Province</option>
+<option>Bar,Serbia</option>
+<option>Barcelona,Spain</option>
+<option>Bari,Italy</option>
+<option>Barnaul,Russia</option>
+<option>Barranquilla,Colombia</option>
+<option>Bartlett,United States</option>
+<option>Basamuk,Papua New Guinea</option>
+<option>Basel,Switzerland</option>
+<option>Basra,Iraq</option>
+<option>Basse-Terre,ST. Kitts</option>
+<option>Basuo,Hainan Province</option>
+<option>Bata,Equatorial Guinea</option>
+<option>Batam,Indonesia</option>
+<option>Batangas,Philippines</option>
+<option>Baton Rouge,Louisiana</option>
+<option>Batu Ampar,Indonesia</option>
+<option>Batumi,Georgia</option>
+<option>Beaumont,U.K.</option>
+<option>Beicun,Guangdong Province</option>
+<option>Beihai,Guangxi Province</option>
+<option>Beijiao,Guangdong Province</option>
+<option>Beijing,China</option>
+<option>Beira,Mozambique</option>
+<option>Beirut,Lebanon</option>
+<option>Bejaia,Algeria</option>
+<option>Belawan,Indonesia</option>
+<option>Belem,Brazil</option>
+<option>Belfast,Ireland</option>
+<option>Belgorad,Russia</option>
+<option>Belgrade,Serbia</option>
+<option>Belize,Belize</option>
+<option>Bell Bay,Australia</option>
+<option>Benete Bay,Indonesia</option>
+<option>Benghazi,Libya</option>
+<option>Benguela,Angola</option>
+<option>Beograd,Serbia</option>
+<option>Berbera,Somalia</option>
+<option>Berkakit,Russia</option>
+<option>Berlin,Germany</option>
+<option>Besancon,France</option>
+<option>Bielefeld,Germany</option>
+<option>Bilbao,Spain</option>
+<option>Bingazi,Libya</option>
+<option>Bintulu,Malaysia</option>
+<option>Birmingham,U.K.</option>
+<option>Birobidzhan,Russia</option>
+<option>Bishkek,Kyrgyzstan</option>
+<option>Bissau,Guinea</option>
+<option>Biysk,Russia</option>
+<option>Bizerte,Tunisia</option>
+<option>Blagoveschensk,Russia</option>
+<option>Blantyre,Malawi</option>
+<option>Blois,France</option>
+<option>Bluff,New Zealand</option>
+<option>Bobruysk,Russia</option>
+<option>Bogota,Colombia</option>
+<option>Bologna (Inland Point),Italy</option>
+<option>Boma,Zaire</option>
+<option>Bombay,India</option>
+<option>Bonaire,Netherlands</option>
+<option>Bonneuil Sur Marne,France</option>
+<option>Bordeaux,France</option>
+<option>Bosperus,Turkey</option>
+<option>Boston,Massachusetts</option>
+<option>Botswana,Africa</option>
+<option>Bourg,France</option>
+<option>Bratislava,Slovakia</option>
+<option>Bregenz,Austria</option>
+<option>Breinigsvolle,United States</option>
+<option>Bremen,Germany</option>
+<option>Bremerhaven,Germany</option>
+<option>Briansk,Russia</option>
+<option>Bridgetown,Barbados</option>
+<option>Brisbane,Australia</option>
+<option>Bristol,U.K.</option>
+<option>Brno,Czech Republic</option>
+<option>Brunei,Brunei</option>
+<option>Brunswick,Georgia</option>
+<option>Brussels,Belgium</option>
+<option>Brzeg Dolny,Poland</option>
+<option>Brzesc,Russia</option>
+<option>Bucharest,Romania</option>
+<option>Budapest,Hungary</option>
+<option>Buenaventura,Colombia</option>
+<option>Buenos Aires,Argentina</option>
+<option>Bufalo,Honduras</option>
+<option>Bugo,Philippines</option>
+<option>Bujumbuba,East Africa</option>
+<option>Bukavu,East Africa</option>
+<option>Bukhara,Russia</option>
+<option>Bulawayo,Zimbabwe</option>
+<option>Burgas,Bulgaria</option>
+<option>Burlington,New Jersey</option>
+<option>Burnie,Australia</option>
+<option>Busan,South Korea</option>
+<option>Busan/Pui,South Korea</option>
+<option>Bydgoszcz,Poland</option>
+<option>Caacupemi,Paraguay</option>
+<option>Cabedello,Brazil</option>
+<option>Cabinda,Angola</option>
+<option>Cadiz,Spain</option>
+<option>Cagayan de Oro,Philippines</option>
+<option>Cagliari,Italy</option>
+<option>Cai Mep,Vietnam</option>
+<option>Cailan,Vietnam</option>
+<option>Cairns,Queensland</option>
+<option>Cairo,Egypt</option>
+<option>Calabar,Nigeria</option>
+<option>Calcutta,India</option>
+<option>Caldera,Costa Rica</option>
+<option>Calgary,Alberta</option>
+<option>Callao,Peru</option>
+<option>Cambodia,Vietnam</option>
+<option>Cambridge,New Zealand</option>
+<option>Camden,U.K.</option>
+<option>Can Tho,Vietnam</option>
+<option>Canakkale,Turkey</option>
+<option>Canoas,Brazil</option>
+<option>Cantho,Vietnam</option>
+<option>Cao Fei Dian,Hebei Province</option>
+<option>Cape Town,South Africa</option>
+<option>Cape Verde,Africa</option>
+<option>Caracas,Venezuela</option>
+<option>Caribbean Islands,Caribbean</option>
+<option>Carson,United States</option>
+<option>Cartagena,Colombia</option>
+<option>Cartago,Colombia</option>
+<option>Casablanca,Morocco</option>
+<option>Castellon,Spain</option>
+<option>Castries,ST. Lucia</option>
+<option>Catania,Italy</option>
+<option>Caucedo,Dominican Republic</option>
+<option>Cavaglia (Inland Point),Italy</option>
+<option>Cayenne Fr.,Guyana</option>
+<option>Cebu,Philippines</option>
+<option>Ceuta,Morocco</option>
+<option>Chalon-Sur-Marne,France</option>
+<option>Chalon-Sur-Saone,France</option>
+<option>Chanaral,Chile</option>
+<option>Changchun,Jilin Province</option>
+<option>Changle,Fujian Province</option>
+<option>Changsha,Hunan Province</option>
+<option>Changshu,Jiangsu Province</option>
+<option>Changzhou,Jiangsu Province</option>
+<option>Chaohu,Anhui Province</option>
+<option>Chaozhou,Guangdong Province</option>
+<option>Charkov,Russia</option>
+<option>Charleston,South Carolina</option>
+<option>Charlestown,Nevis</option>
+<option>Charlotte,North Carolina</option>
+<option>Charlotte Amalie,ST. Thomas</option>
+<option>Chattanooga,Tennessee</option>
+<option>Chattogram,Bangladesh</option>
+<option>Cheljabinsk,Russia</option>
+<option>Chen Lian Ji,Hunan Province</option>
+<option>Chengdu,Sichuan Province</option>
+<option>Chenghai,Guangdong Province</option>
+<option>Chenglingji,Hunan Province</option>
+<option>Chennai,India</option>
+<option>Cherkassy,Ukraine</option>
+<option>Chiasso,Switzerland</option>
+<option>Chiba,Japan</option>
+<option>Chicago,Illinois</option>
+<option>Chimbote,Chile</option>
+<option>Chimkent,Kazakhstan</option>
+<option>Chingyuan,Henan Province</option>
+<option>Chistiansted,ST. Croix</option>
+<option>Chita,Russia</option>
+<option>Chittagong,Bangladesh</option>
+<option>Chiwan,Guangdong Province</option>
+<option>Choloma,Honduras</option>
+<option>Chongqing,China</option>
+<option>Christchurch,New Zealand</option>
+<option>Christiansted,ST. Croix</option>
+<option>Chu Lai,Vietnam</option>
+<option>Chuangsha,Jiangsu Province</option>
+<option>Chuansha,Shanghai</option>
+<option>Chuuk,Micronesia Islands</option>
+<option>Chymkent,Kyrgyzstan</option>
+<option>Cincinnati,Ohio</option>
+<option>Ciudad Del Este,Paraguay</option>
+<option>Civitavecchia,Italy</option>
+<option>Clermont-Ferrand,France</option>
+<option>Cleveland,Ohio</option>
+<option>Coatzacoalcos,Mexico</option>
+<option>Cochabamba,Bolivia</option>
+<option>Cochin,India</option>
+<option>Cocosolo,Panama</option>
+<option>Coega-Ngqura,South Africa</option>
+<option>Coimbatore,India</option>
+<option>Cologne,Germany</option>
+<option>Cologno Monzese (Inland Point),Italy</option>
+<option>Colombo,Sri Lanka</option>
+<option>Colon,Panama</option>
+<option>Columbus,Ohio</option>
+<option>Comores,India</option>
+<option>Conakry,Guinea</option>
+<option>Conception Bay,Chile</option>
+<option>Connellsville,United States</option>
+<option>Constanta,Romania</option>
+<option>Copenhagen,Denmark</option>
+<option>Coquimbo,Chile</option>
+<option>Cordoba,Argentina</option>
+<option>Corinto,Nicaragua</option>
+<option>Cork,Ireland</option>
+<option>Coronel,Chile</option>
+<option>Corpus Christi,United States</option>
+<option>Corsicana,Texas</option>
+<option>Cotabato,Philippines</option>
+<option>Cotonou,Benin</option>
+<option>Cremona (Inland Point),Italy</option>
+<option>Cristobal,Panama</option>
+<option>Cuemavaca,Mexico</option>
+<option>Cuenca,Spain</option>
+<option>Curacao,Curacao</option>
+<option>Curitiba,Brazil</option>
+<option>Czestochowa,Poland</option>
+<option>Da Chan Bay,Guangdong Province</option>
+<option>Dachen,Zhejiang Province</option>
+<option>Dadri,India</option>
+<option>Daesan,South Korea</option>
+<option>Dafeng,Jiangsu Province</option>
+<option>Daganwei (Guangzhou),Guangdong Province</option>
+<option>Dakar,Senegal</option>
+<option>Dalian,Liaoning Province</option>
+<option>Dallas,Texas</option>
+<option>Dalta Port,Egypt</option>
+<option>Damietta,Egypt</option>
+<option>Dammam,Saudi Arabia</option>
+<option>Dampier,Australia</option>
+<option>Danang,Vietnam</option>
+<option>Dandong,Liaoning Province</option>
+<option>Dapeng,Guangdong Province</option>
+<option>Dar es Salaam,Tanzania</option>
+<option>Darkhan,Mongolia</option>
+<option>Darwin,Australia</option>
+<option>Datian,Fujian Province</option>
+<option>Datong,Guangdong Province</option>
+<option>Davao,Philippines</option>
+<option>Dayabay,Guangdong Province</option>
+<option>Dekheila,Egypt</option>
+<option>Delhi,India</option>
+<option>Denver,Colorado</option>
+<option>Derince,Turkey</option>
+<option>Derna,Libya</option>
+<option>Destrehan,United States</option>
+<option>Detroit,Michigan</option>
+<option>Dhaka,Bangladesh</option>
+<option>Diego Suarez,Madagascar</option>
+<option>Dijon,France</option>
+<option>Dili,Timor</option>
+<option>Djen Djen,Algeria</option>
+<option>Djibouti,East Africa</option>
+<option>Dnepropetrovsk,Russia</option>
+<option>Do Ma Tou,Guangdong Province</option>
+<option>Doha,Qatar</option>
+<option>Dole,France</option>
+<option>Dominican,Dominican Republic</option>
+<option>Donetsk,Ukraine</option>
+<option>Dongguan,Guangdong Province</option>
+<option>Dongjiakou,Guangdong Province</option>
+<option>Dongjiangcang,Guangdong Province</option>
+<option>Dongshan,Fujian Province</option>
+<option>Dortmund,Germany</option>
+<option>Douala,Cameroon</option>
+<option>Doumen,Guangdong Province</option>
+<option>Dresden,Germany</option>
+<option>Druzba,Kazakhstan</option>
+<option>Dubai,United Arab Emirates</option>
+<option>Dublin,Ireland</option>
+<option>Duesseldorf,Germany</option>
+<option>Duisburg,Germany</option>
+<option>Dumyat,Egypt</option>
+<option>Dunedin,New Zealand</option>
+<option>Dunkerque,France</option>
+<option>Dunkirk,France</option>
+<option>Durban,South Africa</option>
+<option>Durres,Albania</option>
+<option>Dushanbe,Tajikistan</option>
+<option>Dusseldorf,Germany</option>
+<option>Dutch Harbor,United States</option>
+<option>Dzaoudzi,Mayotte</option>
+<option>Dzhezkazgan,Kazakhstan</option>
+<option>East Canada,Canada</option>
+<option>East London,South Africa</option>
+<option>Ebeye,Marina Islands</option>
+<option>Edincik,Turkey</option>
+<option>Edison,New Jersey</option>
+<option>Edmonton,Canada</option>
+<option>Ehoala,Madagascar</option>
+<option>Eilat,Israel</option>
+<option>Ekaterinburg,Russia</option>
+<option>El Dekhelia,Egypt</option>
+<option>El Guamache,Venezuela</option>
+<option>El Paso,Honduras</option>
+<option>El Progreso,Honduras</option>
+<option>El Salvador,Republic of El Salvador</option>
+<option>El-Dekheila,Egypt</option>
+<option>Embakasi,Kenya</option>
+<option>Encarnacion,Mexico</option>
+<option>Enping,Guangdong Province</option>
+<option>Ensenada,Mexico</option>
+<option>Erdenet,Mongolia</option>
+<option>Eren,Inner Mongolia</option>
+<option>Erlian,Inner Mongolia</option>
+<option>Esmeraldas,Ecuador</option>
+<option>Esperance,Australia</option>
+<option>Essen,Germany</option>
+<option>Estonia,Russia</option>
+<option>Everett,Washington</option>
+<option>Evyap Port,Turkey</option>
+<option>Exuma,Bahamas</option>
+<option>Famagusta,Cyprus</option>
+<option>Fangcheng,Guangxi Province</option>
+<option>Fangcun,Guangdong Province</option>
+<option>Felixstowe,U.K.</option>
+<option>Fenghua,Zhejiang Province</option>
+<option>Fenghuojiao (Tai Shan),Guangdong Province</option>
+<option>Fengxian,Jiangsu Province</option>
+<option>Fergana,Russia</option>
+<option>Fernandina Beach,Florida</option>
+<option>Florence,Italy</option>
+<option>Floroe,Norway</option>
+<option>Flushing,Netherlands</option>
+<option>Fontana,California</option>
+<option>Fort de France,Martinique</option>
+<option>Fortaleza,Brazil</option>
+<option>Fos Sur Mer,France</option>
+<option>Foshan,Guangdong Province</option>
+<option>Frankfurt,Germany</option>
+<option>Fredericia,Denmark</option>
+<option>Freeport,Bahamas</option>
+<option>Freetown,Sierra Leone</option>
+<option>Fremantle,Western Australia</option>
+<option>Fremont,California</option>
+<option>Frontroyal,Virginia</option>
+<option>Frunze,Russia</option>
+<option>Fujairah,United Arab Emirates</option>
+<option>Fukuoka,Japan</option>
+<option>Fukuyama,Japan</option>
+<option>Funafuti,Tuvalu</option>
+<option>Fuqing,Fujian Province</option>
+<option>Fuzhou,Fujian Province</option>
+<option>Gaborone,Botswana</option>
+<option>Galveston,Texas</option>
+<option>Gamagori,Japan</option>
+<option>Gaolan (Zhuhai),Guangdong Province</option>
+<option>Gaoming,Guangdong Province</option>
+<option>Gaosha,Guangdong Province</option>
+<option>Gaoyao,Guangdong Province</option>
+<option>Gaoyou,Jiangsu Province</option>
+<option>Gatemala City,Guatemala</option>
+<option>Gatun,Panama</option>
+<option>Gdansk,Poland</option>
+<option>Gdynia,Poland</option>
+<option>Gebze,Turkey</option>
+<option>Geelong,Australia</option>
+<option>Gemlik,Turkey</option>
+<option>General Santos City,Philippines</option>
+<option>Geneve,Switzerland</option>
+<option>Gennevilliers,France</option>
+<option>Genoa (Genova),Italy</option>
+<option>Geoje,South Korea</option>
+<option>George Town,Guyana</option>
+<option>Geraldton,Australia</option>
+<option>Ghazaouete,Algeria</option>
+<option>Ghent,Belgium</option>
+<option>Gibraltar,Spain</option>
+<option>Gijon,Spain</option>
+<option>Gioia Tauro,Italy</option>
+<option>Girdwood,Alaska</option>
+<option>Gladstone,Australia</option>
+<option>Glasgow,Scotland</option>
+<option>Gliwice,Poland</option>
+<option>Gomel,Russia</option>
+<option>Gongyi,Henan Province</option>
+<option>Gothenburg,Sweden</option>
+<option>Grand Rapids,United States</option>
+<option>Grand Turk,Caribbean</option>
+<option>Grangemouth,U.K.</option>
+<option>Grays,U.K.</option>
+<option>Graz,Austria</option>
+<option>Greensboro,North Carolina</option>
+<option>Guadalajara,Mexico</option>
+<option>Guam,Mariana Islands</option>
+<option>Guang Bao Tong,Guangdong Province</option>
+<option>Guangzhou,Guangdong Province</option>
+<option>Guanta,Venezuela</option>
+<option>Guarulhos,Brazil</option>
+<option>Guatemala City,Guatemala</option>
+<option>Guayaquil,Ecuador</option>
+<option>Guaymas,Mexico</option>
+<option>Guigang,Guangxi Province</option>
+<option>Guilin,Guangxi Province</option>
+<option>Guinea-Bissau,Western Africa</option>
+<option>Guiyang,Guizhou Province</option>
+<option>Guizhou,Guangdong Province</option>
+<option>Gustavia,ST. Barths</option>
+<option>Gwangyang,South Korea</option>
+<option>Hachinohe,Japan</option>
+<option>Hagen,Germany</option>
+<option>Haian,Hainan Province</option>
+<option>Haifa,Israel</option>
+<option>Haifeng,Guangdong Province</option>
+<option>Haikou,Hainan Province</option>
+<option>Haimen,Zhejiang Province</option>
+<option>Hainan,Fujian Province</option>
+<option>Haining,Zhejiang Province</option>
+<option>Haiphong,Vietnam</option>
+<option>Hairaton,Afghanistan</option>
+<option>Hairun,Fujian Province</option>
+<option>Haiti,Caribbean</option>
+<option>Haitian,Fujian Province</option>
+<option>Hakata,Japan</option>
+<option>Hakodate,Japan</option>
+<option>Haldia,India</option>
+<option>Halifax,Nova Scotia</option>
+<option>Hamad Port,Qatar</option>
+<option>Hamada,Japan</option>
+<option>Hamburg,Germany</option>
+<option>Hamilton,New Zealand</option>
+<option>Hamina,Finland</option>
+<option>Hangzhou,Zhejiang Province</option>
+<option>Hanjiang,Fujian Province</option>
+<option>Hankou,Hubei Province</option>
+<option>Hannover,Germany</option>
+<option>Hanoi,Vietnam</option>
+<option>Harare,Zimbabwe</option>
+<option>Harbin,Heilongjiang Province</option>
+<option>Hartford,Michigan</option>
+<option>Haydarpasa,Turkey</option>
+<option>Hazira,India</option>
+<option>Hebron,Ohio</option>
+<option>Hefei,Anhui Province</option>
+<option>Hehou (Xin Hui),Guangdong Province</option>
+<option>Helsingborg,Sweden</option>
+<option>Helsinki,Finland</option>
+<option>Hengyang,Hunan Province</option>
+<option>Herakleion,Greece</option>
+<option>Heshan,Guangdong Province</option>
+<option>Hialeah,United States</option>
+<option>Hibiki,Japan</option>
+<option>Hibikinada,Japan</option>
+<option>Higashiharima,Japan</option>
+<option>Hilo,Hawaii</option>
+<option>Himeji,Japan</option>
+<option>Hiroshima,Japan</option>
+<option>Hitachi,Japan</option>
+<option>Hitachinaka,Japan</option>
+<option>Ho Chi Minh (Catlai),Vietnam</option>
+<option>Ho Chi Minh (Newport),Vietnam</option>
+<option>Ho Chi Minh City,Vietnam</option>
+<option>Hobart,Australia</option>
+<option>Hodeidah,Yemen</option>
+<option>Hohhot,Inner Mongolia</option>
+<option>Hon Gai,Vietnam</option>
+<option>Hong Kong,Hong Kong</option>
+<option>Hongkou,Jiangsu Province</option>
+<option>Honiara,Solomon Islands</option>
+<option>Honolulu,Hawaii</option>
+<option>Hososhima,Japan</option>
+<option>Houston,Texas</option>
+<option>Hua Sai,Vietnam</option>
+<option>Huadu,Guangdong Province</option>
+<option>Huainan,Anhui Province</option>
+<option>Huang Dao,South Korea</option>
+<option>Huang Shi,Hubei Province</option>
+<option>Huanghua,Hebei Province</option>
+<option>Huangpu,Guangdong Province</option>
+<option>Huangqi,Fujian Province</option>
+<option>Huangshan,Anhui Province</option>
+<option>Huizhou,Guangdong Province</option>
+<option>Hull,U.K.</option>
+<option>Humen,Guangdong Province</option>
+<option>Huntington,United States</option>
+<option>Huntsville,United States</option>
+<option>Hyderabad,India</option>
+<option>Hyogo,Japan</option>
+<option>Ijmuiden,Netherlands</option>
+<option>Iligan,Philippines</option>
+<option>Illichivsk,Ukraine</option>
+<option>Ilo,Peru</option>
+<option>Ilyichevsk,Ukraine</option>
+<option>Imabari,Japan</option>
+<option>Imari,Japan</option>
+<option>Imbituba,Brazil</option>
+<option>Immingham,U.K.</option>
+<option>Inchon,South Korea</option>
+<option>Indianapolis,Indiana</option>
+<option>Innsbruck,Austria</option>
+<option>Innxv,India</option>
+<option>Invercargill,New Zealand</option>
+<option>Invergordon,Scotland</option>
+<option>Ipoh,Malaysia</option>
+<option>Ipswich,U.K.</option>
+<option>Iquique,Chile</option>
+<option>Irbid,Jordan</option>
+<option>Irkutsk,Russia</option>
+<option>Irun,Spain</option>
+<option>Ishigaki,Japan</option>
+<option>Ishikari,Japan</option>
+<option>Ishikariwan,Japan</option>
+<option>Ishino Maki,Japan</option>
+<option>Iskenderun,Turkey</option>
+<option>Islam Qala,Afghanistan</option>
+<option>Istanbul,Turkey</option>
+<option>Itaguai,Brazil</option>
+<option>Itajai,Brazil</option>
+<option>Itapetinga,Brazil</option>
+<option>Itapoa,Brazil</option>
+<option>Itaqui,Brazil</option>
+<option>Iwakuni,Japan</option>
+<option>Iyomishima,Japan</option>
+<option>Izmir,Turkey</option>
+<option>Izmit,Turkey</option>
+<option>Izmit Korfezi,Turkey</option>
+<option>Jacksonville,Florida</option>
+<option>Jaipur,India</option>
+<option>Jakarta,Indonesia</option>
+<option>Jakarta UTC1,Indonesia</option>
+<option>Jakarta UTC3,Indonesia</option>
+<option>Jawaharlal Nehru,India</option>
+<option>Jebel Ali,United Arab Emirates</option>
+<option>Jebel Ali Freezone,United Arab Emirates</option>
+<option>Jeddah,Saudi Arabia</option>
+<option>Jelenia Gora,Poland</option>
+<option>Jiading,Shanghai</option>
+<option>Jiamusi,Heilongjiang Province</option>
+<option>Jiang Tang,China</option>
+<option>Jiangmen,Guangdong Province</option>
+<option>Jiangyin,Jiangsu Province</option>
+<option>Jiankou,Fujian Province</option>
+<option>Jiaojiang,Zhejiang Province</option>
+<option>Jiaokou,Guangdong Province</option>
+<option>Jiaoxin,Guangdong Province</option>
+<option>Jiaxing,Zhejiang Province</option>
+<option>Jiazi (Lu Feng),Guangdong Province</option>
+<option>Jieyang,Guangdong Province</option>
+<option>Jinan,Shandong Province</option>
+<option>Jing Tang,Shandong Province</option>
+<option>Jingan,Guangdong Province</option>
+<option>Jinghua,Zhejiang Province</option>
+<option>Jingjiang,Jiangsu Province</option>
+<option>Jinguzhou,Guangdong Province</option>
+<option>Jinshan,Shanghai</option>
+<option>Jinzhou,Liaoning Province</option>
+<option>Jisi,Guangdong Province</option>
+<option>Jiujiang,Jiangxi Province</option>
+<option>Jiujiang (Nanhai),Guangdong Province</option>
+<option>Jiuzhou,Guangdong Province</option>
+<option>Johannesburg,South Africa</option>
+<option>Johor,Malaysia</option>
+<option>Jubail,Saudi Arabia</option>
+<option>Kabil,Indonesia</option>
+<option>Kabul,Afghanistan</option>
+<option>Kachkanar,Russia</option>
+<option>Kaduna,Nigeria</option>
+<option>Kagoshima,Japan</option>
+<option>Kahului,Hawaii</option>
+<option>Kaifeng,Henan Province</option>
+<option>Kaiping,Guangdong Province</option>
+<option>Kakinada,India</option>
+<option>Kakogawa,Japan</option>
+<option>Kaliningrad,Russia</option>
+<option>Kaluga,Russia</option>
+<option>Kam Pong Som,Cambodia</option>
+<option>Kamchatka,Russia</option>
+<option>Kampala,Uganda</option>
+<option>Kanazawa,Japan</option>
+<option>Kandahar,Afghanistan</option>
+<option>Kandla,India</option>
+<option>Kansas City,Kansas</option>
+<option>Kantang,Thailand</option>
+<option>Kaohsiung,China Taiwan</option>
+<option>Karachi,Pakistan</option>
+<option>Karaganda,Kazakhstan</option>
+<option>Karatsu,Japan</option>
+<option>Kashima,Japan</option>
+<option>Kassel,Germany</option>
+<option>Kathmandu,Nepal</option>
+<option>Katowice,Poland</option>
+<option>Kattupalli,India</option>
+<option>Kavieng,Papua New Guinea</option>
+<option>Kavkaz,Russia</option>
+<option>Kawaihae,Hawaii</option>
+<option>Kawasaki,Japan</option>
+<option>Kayes,Mali</option>
+<option>Kazan,Russia</option>
+<option>Kearny,New Jersey</option>
+<option>Keelung,China Taiwan</option>
+<option>Kemaman,Malaysia</option>
+<option>Kemerovo,Russia</option>
+<option>Kenai,Alaska</option>
+<option>Kent,United States</option>
+<option>Khabarovsk,Russia</option>
+<option>Khalifa,United Arab Emirates</option>
+<option>Kharkov,Ukraine</option>
+<option>Khartoum,Sudan</option>
+<option>Khasan,Russia</option>
+<option>Khoms,Africa</option>
+<option>Khor Fakkan,United Arab Emirates</option>
+<option>Khorol,Russia</option>
+<option>Khudjand,Kazakhstan</option>
+<option>Kiel,Germany</option>
+<option>Kielce,Poland</option>
+<option>Kiev,Ukraine</option>
+<option>Kimbe,Papua New Guinea</option>
+<option>Kimitsu,Japan</option>
+<option>King Abdullah,Saudi Arabia</option>
+<option>Kingston,Jamaica</option>
+<option>Kingstown,Saint Vincent</option>
+<option>Kinshasa,Zaire</option>
+<option>Kishinev,Russia</option>
+<option>Kismayu,Somalia</option>
+<option>Klagenfurt,Austria</option>
+<option>Klaipeda,Lithuania</option>
+<option>Kobe,Japan</option>
+<option>Kochi,Japan</option>
+<option>Kokura,Japan</option>
+<option>Kolkata,India</option>
+<option>Koln,Germany</option>
+<option>Koming,Guangdong Province</option>
+<option>Kompong Som,Cambodia</option>
+<option>Komsomolsk Na Amur,Russia</option>
+<option>Koper,Slovenia</option>
+<option>Koror,Palau</option>
+<option>Korsakov,Russia</option>
+<option>Koshichang,Japan</option>
+<option>Kosrae,Micronesia Islands</option>
+<option>Kota Kinabalu,Malaysia</option>
+<option>Kotka,Finland</option>
+<option>Krakow,Poland</option>
+<option>Krasnodar,Russia</option>
+<option>Krasnovosk,Russia</option>
+<option>Krasnoyarsk,Russia</option>
+<option>Kribi,Africa</option>
+<option>Krishnapatnam,India</option>
+<option>Kristiansand,Norway</option>
+<option>Kuala Lumpur,Malaysia</option>
+<option>Kuantan,Malaysia</option>
+<option>Kuching,Malaysia</option>
+<option>Kumamoto,Japan</option>
+<option>Kumport,Turkey</option>
+<option>Kunming,Yunnan Province</option>
+<option>Kunsan,South Korea</option>
+<option>Kunshan,Jiangsu Province</option>
+<option>Kure,Japan</option>
+<option>Kurgan,Russia</option>
+<option>Kursk,Russia</option>
+<option>KUSAN,South Korea</option>
+<option>Kushiro,Japan</option>
+<option>Kustany,Kazakhstan</option>
+<option>Kuwait,Persian Gulf</option>
+<option>Kuybyshev,Russia</option>
+<option>Kwajalein,Micronesia Islands</option>
+<option>Kwangyang,South Korea</option>
+<option>Kyoto,Japan</option>
+<option>La Ceiba,Honduras</option>
+<option>La Goulette,Tunisia</option>
+<option>La Guaira,Venezuela</option>
+<option>La Lima,Honduras</option>
+<option>La Paz,Bolivia</option>
+<option>La Spezia,Italy</option>
+<option>La Union,Republic of El Salvador</option>
+<option>Labuan,Malaysia</option>
+<option>Lae,Papua New Guinea</option>
+<option>Laem Chabang,Thailand</option>
+<option>Lagos/Apapa,Nigeria</option>
+<option>Lahat Datu,Malaysia</option>
+<option>Lahore,Pakistan</option>
+<option>Laizhou,Guangdong Province</option>
+<option>Lake Charles,United States</option>
+<option>Lancaster,California</option>
+<option>Lanshan,Henan Province</option>
+<option>Lanshi,Guangdong Province</option>
+<option>Lanxi,Guangdong Province</option>
+<option>Lanzhou,Gansu Province</option>
+<option>Laon,France</option>
+<option>Laos,Thailand</option>
+<option>Laredo,United States</option>
+<option>Larnaca,Cyprus</option>
+<option>Larvik,Norway</option>
+<option>Las Minas,Guatemala</option>
+<option>Las Palmas,Canary Islands</option>
+<option>Lat Krabang,Thailand</option>
+<option>Latvia,Russia</option>
+<option>Lautoka,Fiji Island</option>
+<option>Lawrence,Kansas</option>
+<option>Lazaro Cardenas,Mexico</option>
+<option>Le Havre,France</option>
+<option>Le Verdon,France</option>
+<option>Leeds,U.K.</option>
+<option>Leghorn (Livorno),Italy</option>
+<option>Leicester,U.K.</option>
+<option>Leipzig,Germany</option>
+<option>Leith,U.K.</option>
+<option>Leixoes,Portugal</option>
+<option>Leliu,Guangdong Province</option>
+<option>Leninabad,Russia</option>
+<option>Leon,Mexico</option>
+<option>Lerma,Spain</option>
+<option>Lerma Estado de Mexico,Mexico</option>
+<option>Lesotho,Maseru</option>
+<option>Levin,New Zealand</option>
+<option>Lianhuashan,Guangdong Province</option>
+<option>Lianyungang,Jiangsu Province</option>
+<option>Liaoning,China</option>
+<option>Libreville,Gabon</option>
+<option>Lihir,Papua New Guinea</option>
+<option>Lilongwe,Malawi</option>
+<option>Lima,Peru</option>
+<option>Limassol,Cyprus</option>
+<option>Limon,Costa Rica</option>
+<option>Linbai,Zhejiang Province</option>
+<option>Linkoping,Sweden</option>
+<option>Linyi,Shandong Province</option>
+<option>Linz,Austria</option>
+<option>Lipetsk,Russia</option>
+<option>Lirquen,Chile</option>
+<option>Lisbon,Portugal</option>
+<option>Lithuania,Russia</option>
+<option>Liudu,Guangdong Province</option>
+<option>Liuzhou,Guangxi Province</option>
+<option>Liverpool,U.K.</option>
+<option>Livorno,Italy</option>
+<option>Ljubljana,Slovenia</option>
+<option>Llyichevsk,Ukraine</option>
+<option>Lobito,Angola</option>
+<option>Lodz,Poland</option>
+<option>Lome,Togo</option>
+<option>London,U.K.</option>
+<option>London Gateway Port,U.K.</option>
+<option>Long Beach,California</option>
+<option>Long Island,Bahamas</option>
+<option>Longkou,Shandong Province</option>
+<option>Longoni,Africa</option>
+<option>Longtan,Jiangsu Province</option>
+<option>Loni,India</option>
+<option>Lorengau,Papua New Guinea</option>
+<option>Los Angeles,California</option>
+<option>Louisville,United States</option>
+<option>Luanda,Angola</option>
+<option>Lubango,Angola</option>
+<option>Lublin,Poland</option>
+<option>Lubljana,Slovenia</option>
+<option>Lubumbashi,Congo</option>
+<option>Ludhiana,India</option>
+<option>Ludiana,India</option>
+<option>Lumut,Indonesia</option>
+<option>Luoyang,Henan Province</option>
+<option>Lusaka,Zambia</option>
+<option>Luxembourg,Luxembourg</option>
+<option>Luzhou,Sichuan Province</option>
+<option>Lvov,Russia</option>
+<option>Lyon,France</option>
+<option>Lyttelton,New Zealand</option>
+<option>Ma An Shan,Anhui Province</option>
+<option>Maaloy,Norway</option>
+<option>Macau,China</option>
+<option>Maceio,Brazil</option>
+<option>Mackay,Queensland</option>
+<option>Macon,France</option>
+<option>Madagascar,Africa</option>
+<option>Madang,Papua New Guinea</option>
+<option>Madison,N.Y.</option>
+<option>Madras,India</option>
+<option>Madrid,Spain</option>
+<option>Maerak,Indonesia</option>
+<option>Mafang,Guangdong Province</option>
+<option>Magadan,Russia</option>
+<option>Magnitogorsk,Russia</option>
+<option>Mahajunga,Africa</option>
+<option>Mahe,Seychelles</option>
+<option>Mailiao,China Taiwan</option>
+<option>Maizuru,Japan</option>
+<option>Majunga,Madagascar</option>
+<option>Majuro,Marshall Islands</option>
+<option>Makasaar,Indonesia</option>
+<option>Malabo,Equatorial Guinea</option>
+<option>Malacca,Malaysia</option>
+<option>Malaga,Canary Islands</option>
+<option>Malawi,Africa</option>
+<option>Male,Maldves</option>
+<option>Malmo,Sweden</option>
+<option>Malongo,Angola</option>
+<option>Malta,Malta</option>
+<option>Managua,Nicaragua</option>
+<option>Manaus,Brazil</option>
+<option>Manchester,U.K.</option>
+<option>Mangalore,India</option>
+<option>Mangyshlak,Kazakhstan</option>
+<option>Manila (MICT),Philippines</option>
+<option>Manila (North),Philippines</option>
+<option>Manila (South),Philippines</option>
+<option>Mannheim,Germany</option>
+<option>Manta,Ecuador</option>
+<option>Manzanillo,Mexico</option>
+<option>Manzanillo (P),Panama</option>
+<option>Manzhouli,Inner Mongolia</option>
+<option>Maoming,Guangdong Province</option>
+<option>Maptaput,Thailand</option>
+<option>Maputo,Mozambique</option>
+<option>Mar Del Plata,Argentina</option>
+<option>Maracaibo,Venezuela</option>
+<option>Mardas,Turkey</option>
+<option>Margarita,Venezuela</option>
+<option>Mariupol,Russia</option>
+<option>Marmagao,India</option>
+<option>Marport,Turkey</option>
+<option>Marsa Ei Brega,Libya</option>
+<option>Marsaxlokk,Malta</option>
+<option>Marsdan Point,New Zealand</option>
+<option>Marseilles,France</option>
+<option>Marseilles-Fos,France</option>
+<option>Marsh Harbour,Bahamas</option>
+<option>Masan,South Korea</option>
+<option>Maseru,Lesotho</option>
+<option>Massawa,Ethiopia</option>
+<option>Matadi,Zaire</option>
+<option>Matarani,Peru</option>
+<option>Matsuyama,Japan</option>
+<option>Mauritius,Africa</option>
+<option>Mawan,Guangdong Province</option>
+<option>Mawei,Fujian Province</option>
+<option>Mayotte,Comores Islands</option>
+<option>Mazar-I-Sharif,Afghanistan</option>
+<option>Mcdondough,United States</option>
+<option>Medan,Indonesia</option>
+<option>Medeu,Kazakhstan</option>
+<option>Megion,Russia</option>
+<option>Mejillones,Chile</option>
+<option>Melbourne,Australia</option>
+<option>Melilla,Morocco</option>
+<option>Memphis,Tennessee</option>
+<option>Mendoza,Argentina</option>
+<option>Merak,Indonesia</option>
+<option>Meridian,United States</option>
+<option>Mersin,Turkey</option>
+<option>Mexicali,Mexico</option>
+<option>Mexico City,Mexico</option>
+<option>Miami,Florida</option>
+<option>Middlesbrough,U.K.</option>
+<option>Miike,Japan</option>
+<option>Milan (Inland Point),Italy</option>
+<option>Milwaukee,South Dakota</option>
+<option>Mina Qaboos,Persian Gulf</option>
+<option>Mindanao,Philippines</option>
+<option>Mindelo,Cape Varde</option>
+<option>Minneapolis,Minnesota</option>
+<option>Minnesota,United States</option>
+<option>Minsk,Russia</option>
+<option>Mira Loma,California</option>
+<option>Miri,Malaysia</option>
+<option>Miskolc,Hungary</option>
+<option>Mississauga,Canada</option>
+<option>Misurata,Libya</option>
+<option>Mizushima,Japan</option>
+<option>Mobile,Alabama</option>
+<option>Mogadiscio,Somalia</option>
+<option>Mogilev,Russia</option>
+<option>Moji,Japan</option>
+<option>Mokop,South Korea</option>
+<option>Mombasa,Kenya</option>
+<option>Mongla,Bangladesh</option>
+<option>Monrovia,Liberia</option>
+<option>Montego Bay,Jamaica</option>
+<option>Monterrey,Mexico</option>
+<option>Montevideo,Uruguay</option>
+<option>Montgomery,Maryland</option>
+<option>Montoir,France</option>
+<option>Montpellier,France</option>
+<option>Montreal,Quebec</option>
+<option>Montserrat,Caribbean</option>
+<option>Morehead City,North Carolina</option>
+<option>Mormagao,India</option>
+<option>Moroni,Comores Islands</option>
+<option>Morristown,Tennessee</option>
+<option>Morrisville,Pennsylvania</option>
+<option>Moscow,Russia</option>
+<option>Mostaganem,Algeria</option>
+<option>Motukea,Papua New Guinea</option>
+<option>Muara,Brunei</option>
+<option>Mucuripe,Brazil</option>
+<option>Mudanjiang,Heilongjiang Province</option>
+<option>Mukalla,South Yemen</option>
+<option>Mulund,India</option>
+<option>Mumbai,India</option>
+<option>Mundra,India</option>
+<option>Munich,Germany</option>
+<option>Muplu,Mauritius Is.</option>
+<option>Murmans,Russia</option>
+<option>Murmansk,Russia</option>
+<option>Muroran,Japan</option>
+<option>Muscat,Oman</option>
+<option>Mutare,Zimbabwe</option>
+<option>Mutsamudu,Comores Islands</option>
+<option>Nacala,Mozambique</option>
+<option>Nagasaki,Japan</option>
+<option>Nagoya,Japan</option>
+<option>Naha,Japan</option>
+<option>Nairobi,Kenya</option>
+<option>Nakanoseki,Japan</option>
+<option>Nakhodka,Russia</option>
+<option>Namangan,Uzbekistan</option>
+<option>Namibe,Angola</option>
+<option>Nanao,Guangdong Province</option>
+<option>Nanchang,Jiangxi Province</option>
+<option>Nangang (Nanhai),Guangdong Province</option>
+<option>Nanguang,Sichuan Province</option>
+<option>Nanhai,Guangdong Province</option>
+<option>Nanhai (Sanshan),Guangdong Province</option>
+<option>Nanhui,Shanghai</option>
+<option>Nanjing,Jiangsu Province</option>
+<option>Nankeng,Hunan Province</option>
+<option>Nanning,Guangxi Province</option>
+<option>Nansha (Guangzhou),Guangdong Province</option>
+<option>Nantong,Jiangsu Province</option>
+<option>Naoetsu,Japan</option>
+<option>Napier,New Zealand</option>
+<option>Naples,Italy</option>
+<option>Narathiwat,Thailand</option>
+<option>Nashville,Tennessee</option>
+<option>Nassau,Bahamas</option>
+<option>Nauru,Nauru</option>
+<option>Navegantes,Brazil</option>
+<option>Nawilwili,Hawaii</option>
+<option>Ndola,Zambia</option>
+<option>Nelson,New Zealand</option>
+<option>Nemrut Bay,Turkey</option>
+<option>Neryungri,Russia</option>
+<option>Nevers,France</option>
+<option>New Castle,U.K.</option>
+<option>New Delhi,India</option>
+<option>New Jersey,New Jersey</option>
+<option>New London,United States</option>
+<option>New Orleans,Louisiana</option>
+<option>New Plymouth,New Zealand</option>
+<option>New York,N.Y.</option>
+<option>New York Harbour,N.Y.</option>
+<option>Newark,New Jersey</option>
+<option>Newcastle,Australia</option>
+<option>Newport News,Virginia</option>
+<option>Ngqura,South Africa</option>
+<option>Nhatrang,Vietnam</option>
+<option>Nhava Sheva,India</option>
+<option>Nigqura,India</option>
+<option>Niigata,Japan</option>
+<option>Ningbo,Zhejiang Province</option>
+<option>Ningde,Fujian Province</option>
+<option>Niue,Cook Islands</option>
+<option>Nizhnevartovsk,Russia</option>
+<option>Nizhny Novgorod,Russia</option>
+<option>Nizhny Tagil,Russia</option>
+<option>Nogales,Mexico</option>
+<option>Nola,Italy</option>
+<option>Norfolk,Virginia</option>
+<option>Noro,Solomon Islands</option>
+<option>Norrkoping,Sweden</option>
+<option>Northlake,United States</option>
+<option>Nossi-Be,Madagascar</option>
+<option>Nosy Be,Madagascar</option>
+<option>Nottingham,U.K.</option>
+<option>Nouadhibou,Mauritania</option>
+<option>Nouakchott,Mauritania</option>
+<option>Noumea,New Caledonia</option>
+<option>Novgorod,Russia</option>
+<option>Novokuznetsk,Mexico</option>
+<option>Novorossiysk,Russia</option>
+<option>Novorosyjsk,Russia</option>
+<option>Novosibirsk,Russia</option>
+<option>Noyabrjsk,Russia</option>
+<option>Nsict,India</option>
+<option>Nuernberg,Germany</option>
+<option>Nuevo Laredo,Mexico</option>
+<option>Nukualofa,Tonga</option>
+<option>Oakland,California</option>
+<option>Oamaru,New Zealand</option>
+<option>Odessa,Ukraine</option>
+<option>Oita,Japan</option>
+<option>Okayama,Japan</option>
+<option>Okinawa,Japan</option>
+<option>Omaezaki,Japan</option>
+<option>Omaha,Nebraska</option>
+<option>Omsk,Russia</option>
+<option>Onahama,Japan</option>
+<option>Onne,Nigeria</option>
+<option>Onsan,South Korea</option>
+<option>Oporto,Portugal</option>
+<option>Oran,Algeria</option>
+<option>Oranjestad,Aruba</option>
+<option>Orlando,Florida</option>
+<option>Orleans,France</option>
+<option>Orobay,Papua New Guinea</option>
+<option>Orsa,Russia</option>
+<option>Orzea,Russia</option>
+<option>Osaka,Japan</option>
+<option>Osh,Kyrgyzstan</option>
+<option>Oslo,Norway</option>
+<option>Otake,Japan</option>
+<option>Otalu,Japan</option>
+<option>Otaru,Japan</option>
+<option>Oxford,U.K.</option>
+<option>Padang,Indonesia</option>
+<option>Pagny,France</option>
+<option>Pago Pago,American Samoa</option>
+<option>Paita,Peru</option>
+<option>Palembang,Indonesia</option>
+<option>Palermo,Italy</option>
+<option>Palmerston North,New Zealand</option>
+<option>Panama,Panama</option>
+<option>Panama Canal,Panama</option>
+<option>Panama City,Panama</option>
+<option>Panjang,Indonesia</option>
+<option>Panyu,China</option>
+<option>Papeete,Tahiti</option>
+<option>Papsa,Panama</option>
+<option>Paramaribo,Surinam</option>
+<option>Paranagua,Brazil</option>
+<option>Paris,France</option>
+<option>Parma (Inland Point),Italy</option>
+<option>Pasir Gudang,Malaysia</option>
+<option>Patparganj,India</option>
+<option>Pavlodar,Kazakhstan</option>
+<option>Pearl River Delta,China</option>
+<option>Pecem,Brazil</option>
+<option>Pekanbaru,Indonesia</option>
+<option>Pemba,Mozambique</option>
+<option>Penang,Malaysia</option>
+<option>Penghu,Guangdong Province</option>
+<option>Perm,Russia</option>
+<option>Perth,Australia</option>
+<option>Peshawar,Pakistan</option>
+<option>Petropavlosk,Russia</option>
+<option>Philadelphia,Pennsylvania</option>
+<option>Philipsburg,ST. Maarten</option>
+<option>Phnom Penh,Cambodia</option>
+<option>Phoenix,United States</option>
+<option>Phuoc Long,Vietnam</option>
+<option>Pilar,Argentina</option>
+<option>Pinghai,Guangdong Province</option>
+<option>Pingzhou,Hunan Province</option>
+<option>Pipavav,India</option>
+<option>Piraeus,Greece</option>
+<option>Pisa,Italy</option>
+<option>Pittsburgh,Pennsylvania</option>
+<option>Ploce,Croatia</option>
+<option>Plymouth,Trinidad</option>
+<option>Podgorica,Montenegro</option>
+<option>Pohang,South Korea</option>
+<option>Pohnpei,Micronesia Islands</option>
+<option>Point A Pitre,Guadeloupe</option>
+<option>Point Lisas,Trinidad</option>
+<option>Pointe Blanche,Caribbean</option>
+<option>Pointe Des Galets,Reunion Islands</option>
+<option>Pointe Noire,Congo</option>
+<option>Pointe-A-Pitre,Leeward Island</option>
+<option>Pomezia,Italy</option>
+<option>Ponce,Puerto Rico</option>
+<option>Pontianak,Indonesia</option>
+<option>Pori,Finland</option>
+<option>Port Alma,Queensland</option>
+<option>Port Cabello,Venezuela</option>
+<option>Port Chalmers,New Zealand</option>
+<option>Port Des Galets,Africa</option>
+<option>Port Elizabeth,South Africa</option>
+<option>Port Everglades,Florida</option>
+<option>Port Gentil,Gabon</option>
+<option>Port Harcourt,Nigeria</option>
+<option>Port Hedland,Australia</option>
+<option>Port Kasim,Pakistan</option>
+<option>Port Kembla,Australia</option>
+<option>Port Klang,Malaysia</option>
+<option>Port Klang (North),Malaysia</option>
+<option>Port Klang (West),Malaysia</option>
+<option>Port Limon,Costa Rica</option>
+<option>Port Lisas,Panama</option>
+<option>Port Louis,Mauritius Is.</option>
+<option>Port Moresby,Papua New Guinea</option>
+<option>Port Muhammad Bin Qasim,India</option>
+<option>Port Noire,Congo</option>
+<option>Port of Spain,Trinidad</option>
+<option>Port Pirie,South Australia</option>
+<option>Port Qasim,Pakistan</option>
+<option>Port Rashid,United Arab Emirates</option>
+<option>Port Reunion,South Africa</option>
+<option>Port Said,Egypt</option>
+<option>Port Sousse,Tunisia</option>
+<option>Port Sudan,Sudan</option>
+<option>Port Suez,Egypt</option>
+<option>Port Sultan Qaboos,Oman</option>
+<option>Port Victoria,East Africa</option>
+<option>Port Vila,Vanuatu</option>
+<option>Port-Au-Prince,Haiti</option>
+<option>Portland,Oregon</option>
+<option>Porto,Portugal</option>
+<option>Porto Alegre,Brazil</option>
+<option>Portsmouth,Virginia</option>
+<option>Posorja,Ecuador</option>
+<option>Poti,Georgia</option>
+<option>Potianak,Indonesia</option>
+<option>Poznan,Poland</option>
+<option>Prague,Czech Republic</option>
+<option>Praia,Cape Varde</option>
+<option>Praia Mole,Brazil</option>
+<option>Prato (Inland Point),Italy</option>
+<option>Pretoria,Mozambique</option>
+<option>Prince Rupert,Canada</option>
+<option>Prishtina,Serbia</option>
+<option>Pristina,Kosovo</option>
+<option>Progreso,Mexico</option>
+<option>Providence,Kentucky</option>
+<option>Provinciales,Provinciales</option>
+<option>Pskov,Russia</option>
+<option>Pudong,Jiangsu Province</option>
+<option>Pudong,Shanghai</option>
+<option>Puerto Angamos,Peru</option>
+<option>Puerto Armuelles,Panama</option>
+<option>Puerto Bolivar,Colombia</option>
+<option>Puerto Cabello,Venezuela</option>
+<option>Puerto Caldera,Costa Rica</option>
+<option>Puerto Coronel,Chile</option>
+<option>Puerto Cortes,Honduras</option>
+<option>Puerto Limon,Costa Rica</option>
+<option>Puerto Madryn,Argentina</option>
+<option>Puerto Moin,United States</option>
+<option>Puerto Montt,Chile</option>
+<option>Puerto Morelos,Mexico</option>
+<option>Puerto Plata,Dominican Republic</option>
+<option>Puerto Quetzal (San Jose),Guatemala</option>
+<option>Puerto Sucre,Venezuela</option>
+<option>Puinhon,Vietnam</option>
+<option>Pune,India</option>
+<option>Puning,Guangdong Province</option>
+<option>Punta Arenas,Chile</option>
+<option>Puntarenas,Costa Rica</option>
+<option>Puqi,Zhejiang Province</option>
+<option>Putian,Fujian Province</option>
+<option>Pyeongtaek,South Korea</option>
+<option>Qesim Island,United Arab Emirates</option>
+<option>Qingdao,Shandong Province</option>
+<option>Qingpu,Shanghai</option>
+<option>Qingyuan,Guangdong Province</option>
+<option>Qinhuangdao,Hebei Province</option>
+<option>Qinzhou,Guangxi Province</option>
+<option>Quang Ninh,Vietnam</option>
+<option>Quanzhou,Fujian Province</option>
+<option>Quelimane,Mozambique</option>
+<option>Queretaro,Mexico</option>
+<option>Quertaro,Mexico</option>
+<option>Quezaltenango,Guatemala</option>
+<option>Quinhon,Vietnam</option>
+<option>Quito,Ecuador</option>
+<option>Quzai,Lebanon</option>
+<option>Quzhou,Zhejiang Province</option>
+<option>Rabaul,Papua New Guinea</option>
+<option>Radom,Poland</option>
+<option>Raleigh,North Carolina</option>
+<option>Rarotonga,Cook Islands</option>
+<option>Ras Al Khaimah,United Arab Emirates</option>
+<option>Ras Lanuf,Libya</option>
+<option>Rauma,Finland</option>
+<option>Ravenna,Italy</option>
+<option>Rayong,Thailand</option>
+<option>Recife,Brazil</option>
+<option>Regina,Italy</option>
+<option>Reunion,Reunion Islands</option>
+<option>Reykjavik,Iceland</option>
+<option>Richards Bay,South Africa</option>
+<option>Richmond,Virginia</option>
+<option>Ried,Austria</option>
+<option>Riga,Latvia</option>
+<option>Rijeka,Croatia</option>
+<option>Rio de Janeiro,Brazil</option>
+<option>Rio Grande,Brazil</option>
+<option>Rio Grande (A),Argentina</option>
+<option>Rio Grande Do Sul,Brazil</option>
+<option>Rio Haina,Dominican Republic</option>
+<option>Riyadh,Saudi Arabia</option>
+<option>Rizhao,Shandong Province</option>
+<option>Roadtown,Tortola</option>
+<option>Roanne,France</option>
+<option>Rochelle,United States</option>
+<option>Rodman,Panama</option>
+<option>Roenoe,Denmark</option>
+<option>Rome,Italy</option>
+<option>Rongqi,Guangdong Province</option>
+<option>Rosario,Argentina</option>
+<option>Rosarito,Mexico</option>
+<option>Roseau,Dominica</option>
+<option>Rostock,Germany</option>
+<option>Rostov,Georgia</option>
+<option>Rotorua,New Zealand</option>
+<option>Rotterdam,Netherlands</option>
+<option>Rouen,France</option>
+<option>Rovno,Russia</option>
+<option>Rudong,Jiangsu Province</option>
+<option>Ruian,Zhejiang Province</option>
+<option>Russe,Bulgaria</option>
+<option>Russia,Russia</option>
+<option>Rwanda,Africa</option>
+<option>Ryazanj,Russia</option>
+<option>Rzeszow,Poland</option>
+<option>S. Vicente,Cape Varde</option>
+<option>Sacramento,California</option>
+<option>Saint-Etienne,France</option>
+<option>Saipan,Marina Islands</option>
+<option>Sakaiminato,Japan</option>
+<option>Sakaisenboku,Japan</option>
+<option>Sakata,Japan</option>
+<option>Sakhalin,Russia</option>
+<option>Salalah,Oman</option>
+<option>Salerno,Italy</option>
+<option>Salina Cruz,Mexico</option>
+<option>Salomague,Philippines</option>
+<option>Salonica,Greece</option>
+<option>Salonika,Tanzania</option>
+<option>Salt Lake City,United States</option>
+<option>Salvador,Brazil</option>
+<option>Salzburg,Austria</option>
+<option>Samara,Russia</option>
+<option>Samarinda,Indonesia</option>
+<option>Samarkand,Russia</option>
+<option>Sambeimen,Guangdong Province</option>
+<option>Samsun,Turkey</option>
+<option>San Antonio,Chile</option>
+<option>San Antonio (TX),Texas</option>
+<option>San Diego,California</option>
+<option>San Felix,Chile</option>
+<option>San Francisco,California</option>
+<option>San Jose,Costa Rica</option>
+<option>San Juan,Puerto Rico</option>
+<option>San Lorenzo,Honduras</option>
+<option>San Luis Colorado,Colorado</option>
+<option>San Luis Potosi,Mexico</option>
+<option>San Pedro,Argentina</option>
+<option>San Pedro Sula,Honduras</option>
+<option>San Salvador,Republic of El Salvador</option>
+<option>San Vicente,Chile</option>
+<option>Sana,Yemen</option>
+<option>Sanbeimen,Guangdong Province</option>
+<option>Sanbu,Guangdong Province</option>
+<option>Sandakan, Sabah,Malaysia</option>
+<option>Sanrong,Guangdong Province</option>
+<option>Sanshan,Guangdong Province</option>
+<option>Sanshui,Guangdong Province</option>
+<option>Santa Cruz de Tenerife,Canary Islands</option>
+<option>Santa Marta,Colombia</option>
+<option>Santiago,Chile</option>
+<option>Santo,Vanuatu</option>
+<option>Santo Domingo,Dominican Republic</option>
+<option>Santo Tomas de Castilla,Guatemala</option>
+<option>Santos,Brazil</option>
+<option>Sanya,Hainan Province</option>
+<option>Sao Francisco Do Sul,Brazil</option>
+<option>Sao Paulo,Brazil</option>
+<option>Sao Tome,Western Africa</option>
+<option>Sarajevo,Bosnia Hercegovina</option>
+<option>Sarikei,Malaysia</option>
+<option>Saskatoon,Canada</option>
+<option>Savador Bahia,Brazil</option>
+<option>Savannah,Georgia</option>
+<option>Savannakhet,Laos</option>
+<option>Savona,Italy</option>
+<option>Savu Savu,Fiji Island</option>
+<option>Seattle,Washington</option>
+<option>Segoro,Indonesia</option>
+<option>Semarang,Indonesia</option>
+<option>Senboku,Japan</option>
+<option>Sendai,Japan</option>
+<option>Sens,France</option>
+<option>Seoul,South Korea</option>
+<option>Sepetiba,Brazil</option>
+<option>Sete,France</option>
+<option>Setubal,Portugal</option>
+<option>Seward,Alaska</option>
+<option>Sfax,Tunisia</option>
+<option>Shangchuan Dao,China</option>
+<option>Shangdong,Shandong Province</option>
+<option>Shanghai,China</option>
+<option>Shangqiu,Henan Province</option>
+<option>Shantou,Guangdong Province</option>
+<option>Shanwei,Guangdong Province</option>
+<option>Shaoguan,Guangdong Province</option>
+<option>Shaoxing,Zhejiang Province</option>
+<option>Sharjah,United Arab Emirates</option>
+<option>Shashi,Hubei Province</option>
+<option>Shatian,Guangdong Province</option>
+<option>Sheerness,U.K.</option>
+<option>Shekou,Guangdong Province</option>
+<option>Shenwan,Guangdong Province</option>
+<option>Shenyang,Liaoning Province</option>
+<option>Shenzhen,Guangdong Province</option>
+<option>Shibushi,Japan</option>
+<option>Shidao,Shandong Province</option>
+<option>Shijiazhuang,Hebei Province</option>
+<option>Shiliugang,Guangdong Province</option>
+<option>Shima,Japan</option>
+<option>Shimizu,Japan</option>
+<option>Shimonoseki,Japan</option>
+<option>Shiqi,Guangdong Province</option>
+<option>Shiqiao (Pan Yu),Guangdong Province</option>
+<option>Shishi,Fujian Province</option>
+<option>Shitang,Guangdong Province</option>
+<option>Shiwan,Guangdong Province</option>
+<option>Shuaibah,Kuwait</option>
+<option>Shuidong,Guangdong Province</option>
+<option>Shuikou,Guangdong Province</option>
+<option>Shunde,Guangdong Province</option>
+<option>Shuwaikh,Kuwait</option>
+<option>Sialkot,Pakistan</option>
+<option>Siam,Thailand</option>
+<option>Sibu, Sarawak,Malaysia</option>
+<option>Sichuan,Sichuan Province</option>
+<option>Sihanoukville,Cambodia</option>
+<option>Sihui,Guangdong Province</option>
+<option>Sines,Portugal</option>
+<option>Singapore,Singapore</option>
+<option>Sipitang,Malaysia</option>
+<option>Skikda,Algeria</option>
+<option>Skopje,Macedonia</option>
+<option>Smolensk,Russia</option>
+<option>Sochi,Russia</option>
+<option>Socola,Romania</option>
+<option>Sofia,Bulgaria</option>
+<option>Sohar,Oman</option>
+<option>Sokhna,Egypt</option>
+<option>Somalia,Africa</option>
+<option>Songkhla,Thailand</option>
+<option>Sousse,Tunisia</option>
+<option>South Caicos,Turks & Caicos</option>
+<option>South Shields,U.K.</option>
+<option>Southampton,U.K.</option>
+<option>Sovgavanj,Russia</option>
+<option>Soyo,Angola</option>
+<option>Sparrow Point,Maryland</option>
+<option>Split,Croatia</option>
+<option>Sri Racha (Bangkok),Thailand</option>
+<option>St. Barthelemy,Guadeloupe</option>
+<option>St. Croix,Virgin Islands</option>
+<option>St. Domingo,United States</option>
+<option>St. George's,Grenada</option>
+<option>St. Johns,Antigua</option>
+<option>St. Louis,Missouri</option>
+<option>St. Lucia,West Indies</option>
+<option>St. Maarten,Caribbean</option>
+<option>St. Petersburg,Russia</option>
+<option>St. Polten,Austria</option>
+<option>St. Thomas,Virgin Islands</option>
+<option>Stockholm,Sweden</option>
+<option>Stockton,California</option>
+<option>Stoughton,United States</option>
+<option>Stuttgart,Germany</option>
+<option>Su Wan Na Kaed,Vietnam</option>
+<option>Suape,Brazil</option>
+<option>Subic Bay,Philippines</option>
+<option>Suez Canal,Egypt</option>
+<option>Suigang,Hunan Province</option>
+<option>Sukhna,Egypt</option>
+<option>Surabaya,Indonesia</option>
+<option>Surat,India</option>
+<option>Surgut,Russia</option>
+<option>Suva,Fiji Island</option>
+<option>Suzhou,Jiangsu Province</option>
+<option>Svobodny,Russia</option>
+<option>Swaziland,Africa</option>
+<option>Sydney,Australia</option>
+<option>Szczecin,Poland</option>
+<option>Ta Kaek,Vietnam</option>
+<option>Ta Na Lang,Vietnam</option>
+<option>Tacoma,Washington</option>
+<option>Taicang,Jiangsu Province</option>
+<option>Taichung,China Taiwan</option>
+<option>Taijiang,Fujian Province</option>
+<option>Taipei,China Taiwan</option>
+<option>Taiping,Guangdong Province</option>
+<option>Taishan,Guangdong Province</option>
+<option>Taiwan,China Taiwan</option>
+<option>Taiyuan,Shanxi Province</option>
+<option>Taizhou,Zhejiang Province</option>
+<option>Takamatsu,Japan</option>
+<option>Takoradi,Ghana</option>
+<option>Talcahuano,Chile</option>
+<option>Taldykorgan,Kazakhstan</option>
+<option>Tallinn,Estonia</option>
+<option>Tamatave,Madagascar</option>
+<option>Tampa,Florida</option>
+<option>Tampere,Finland</option>
+<option>Tampico,Mexico</option>
+<option>Tancang,Vietnam</option>
+<option>Tanga,Tanzania</option>
+<option>Tanger-Med,Morocco</option>
+<option>Tanggu,Tianjin</option>
+<option>Tangier,Morocco</option>
+<option>Tangshan,Hebei Province</option>
+<option>Tanjung Emas,Indonesia</option>
+<option>Tanjung Manis,Malaysia</option>
+<option>Tanjung Pelepas,Malaysia</option>
+<option>Tao Yuan,China Taiwan</option>
+<option>Taranto,Italy</option>
+<option>Tarawa,Kirbati</option>
+<option>Tarnobrzeg,Poland</option>
+<option>Tarragona,Spain</option>
+<option>Tashkent,Uzbekistan</option>
+<option>Tauranga,New Zealand</option>
+<option>Tawau,Malaysia</option>
+<option>Tbilisi,Georgia</option>
+<option>Tcbuen,Colombia</option>
+<option>Tecate,Mexico</option>
+<option>Teesport,U.K.</option>
+<option>Tegucigalpa,Honduras</option>
+<option>Tekirdag,Turkey</option>
+<option>Tel Aviv,Israel</option>
+<option>Tema,Ghana</option>
+<option>Tenerife,Canary Islands</option>
+<option>Teplice,Czech Republic</option>
+<option>Tequcigalpa,Honduras</option>
+<option>Terespol,Poland</option>
+<option>Terport,Paraguay</option>
+<option>Thamesport,U.K.</option>
+<option>The Valley,Anguilla</option>
+<option>Thessaloniki,Greece</option>
+<option>Thilawa,Burma</option>
+<option>Tijuana,Mexico</option>
+<option>Tilbury,U.K.</option>
+<option>Timaru,New Zealand</option>
+<option>Tincan,Nigeria</option>
+<option>Tinian,Micronesia Islands</option>
+<option>Tirana,Albania</option>
+<option>Toamasina,Madagascar</option>
+<option>Tobata,Japan</option>
+<option>Tobruk,Africa</option>
+<option>Togliatti,Russia</option>
+<option>Tokmak,Kyrgyzstan</option>
+<option>Tokushima,Japan</option>
+<option>Tokuyama,Japan</option>
+<option>Tokyo,Japan</option>
+<option>Toljati,Russia</option>
+<option>Tomakomai,Japan</option>
+<option>Tomsk,Russia</option>
+<option>Tongan,Fujian Province</option>
+<option>Tonglin,Anhui Province</option>
+<option>Tonglu,Zhejiang Province</option>
+<option>Tongshen,Hubei Province</option>
+<option>Torghundi,Afghanistan</option>
+<option>Toronto,Ontario</option>
+<option>Torres Strait,Australia</option>
+<option>Torun,Poland</option>
+<option>Tosu,Japan</option>
+<option>Townsville,Australia</option>
+<option>Toyama,Japan</option>
+<option>Toyamashiniko,Japan</option>
+<option>Toyohashi,Japan</option>
+<option>Toytepa,Uzbekistan</option>
+<option>Trabzon,Turkey</option>
+<option>Trieste,Italy</option>
+<option>Trinidad,Caribbean</option>
+<option>Tripoli,Libya</option>
+<option>Trizt,Turkey</option>
+<option>Troyes,France</option>
+<option>Truk,Marina Islands</option>
+<option>Tsuruga,Japan</option>
+<option>Tulear,Madagascar</option>
+<option>Tumen,Jilin Province</option>
+<option>Tunis,Tunisia</option>
+<option>Turgundi,Russia</option>
+<option>Turku,Finland</option>
+<option>Tuticorin,India</option>
+<option>Tynda,Russia</option>
+<option>Tyumen,Russia</option>
+<option>Ube,Japan</option>
+<option>Ufa,Russia</option>
+<option>Ujung Pandang,Indonesia</option>
+<option>Ulaan Baatar,Mongolia</option>
+<option>Ulan Ude,Russia</option>
+<option>Uljanovsk,Russia</option>
+<option>Ulm,Germany</option>
+<option>Ulsan,South Korea</option>
+<option>Umm Qasr,Iraq</option>
+<option>Uralsk,Kazakhstan</option>
+<option>Urumqi,Xinjiang Province</option>
+<option>Ushuaia,Argentina</option>
+<option>Ussuryisk,Russia</option>
+<option>Ust-Kamenogorsk,Kazakhstan</option>
+<option>Vainikkala,Finland</option>
+<option>Valence,France</option>
+<option>Valencia,Spain</option>
+<option>Valletta,Malta</option>
+<option>Valparaiso,Chile</option>
+<option>Vancouver,British Columbia</option>
+<option>Vanino,Russia</option>
+<option>Varna,Bulgaria</option>
+<option>Vavau,Tonga</option>
+<option>Venezia,Italy</option>
+<option>Venice,Italy</option>
+<option>Vennica,Russia</option>
+<option>Vera Cruz,Mexico</option>
+<option>Verino,Russia</option>
+<option>Vernon,United States</option>
+<option>Vesoul,France</option>
+<option>Vict,Vietnam</option>
+<option>Victoria,Argentina</option>
+<option>Victoria (E.Africa),Seychelles</option>
+<option>Vienna,Austria</option>
+<option>Vientiane,Laos</option>
+<option>Vieux Fort,Guadeloupe</option>
+<option>Vigo,Spain</option>
+<option>Vila,Vanuatu</option>
+<option>Vila Do Conde,Brazil</option>
+<option>Villa Nueva,Honduras</option>
+<option>Vilnius,Lithuania</option>
+<option>Virgin Gorda,Caribbean</option>
+<option>Visakhapatnam,India</option>
+<option>Vitebsk,Russia</option>
+<option>Vitoria,Brazil</option>
+<option>Vizag,India</option>
+<option>Vladivostok,Russia</option>
+<option>Vohemar,Madagascar</option>
+<option>Volgogard,Russia</option>
+<option>Vologda,Russia</option>
+<option>Volos,Greece</option>
+<option>Voltri,Italy</option>
+<option>Voronez,Russia</option>
+<option>Vostochny,Russia</option>
+<option>Vungtau,Vietnam</option>
+<option>Wai Gao Qiao,Shanghai</option>
+<option>Wakayama,Japan</option>
+<option>Wallis/Futuna,Micronesia Islands</option>
+<option>Walvis Bay,Namiba</option>
+<option>Wanganui,New Zealand</option>
+<option>Wanzai (Zhuhai),Guangdong Province</option>
+<option>Warren,Ohio</option>
+<option>Warri,Nigeria</option>
+<option>Warsaw,Poland</option>
+<option>Wasilla,Alaska</option>
+<option>Weifang,Shandong Province</option>
+<option>Weihai,Shandong Province</option>
+<option>Weitou,Fujian Province</option>
+<option>Wellington,New Zealand</option>
+<option>Wenzhou,Zhejiang Province</option>
+<option>West Palm Beach,Florida</option>
+<option>Wewak,Papua New Guinea</option>
+<option>Whangarei,New Zealand</option>
+<option>Whitestown,United States</option>
+<option>Wilhelmshaven,Germany</option>
+<option>Willemstad,Netherlands Antilles</option>
+<option>Wilmington,North Carolina</option>
+<option>Winnipeg,Canada</option>
+<option>Wloclawek,Poland</option>
+<option>Wolow,Poland</option>
+<option>Wroclaw,Poland</option>
+<option>Wuchun,Guangdong Province</option>
+<option>Wuhan,Hubei Province</option>
+<option>Wuhu,Anhui Province</option>
+<option>Wujiang,Jiangsu Province</option>
+<option>Wulumuqi,Xinjiang Province</option>
+<option>Wumen,Zhejiang Province</option>
+<option>Wuxi,Jiangsu Province</option>
+<option>Wuzhou,Guangxi Province</option>
+<option>Xanshi,China</option>
+<option>Xiamen,Fujian Province</option>
+<option>Xian,Shaanxi Province</option>
+<option>Xiandria,China</option>
+<option>Xiangtan,Hunan Province</option>
+<option>Xiangyu,Xiamen</option>
+<option>Xiangzhou,Guangdong Province</option>
+<option>Xianyang,Shaanxi Province</option>
+<option>Xiao Cuo,Fujian Province</option>
+<option>Xiaogan,Hubei Province</option>
+<option>Xiaohudao,Guangdong Province</option>
+<option>Xiaolan (Shi Qi),Guangdong Province</option>
+<option>Xiaoshan,Zhejiang Province</option>
+<option>Xin Sha,Guangdong Province</option>
+<option>Xinfeng,Guangdong Province</option>
+<option>Xingang,Tianjin</option>
+<option>Xinhui,Guangdong Province</option>
+<option>Xining,Qinghai Province</option>
+<option>Xintang,Guangdong Province</option>
+<option>Xinyou,Fujian Province</option>
+<option>Xiuhui,Guangdong Province</option>
+<option>Xiuyu,Liaoning Province</option>
+<option>Xuchang,Henan Province</option>
+<option>Xuzhou,Jiangsu Province</option>
+<option>Yakusk,Russia</option>
+<option>Yangjiang,Guangdong Province</option>
+<option>Yangon,Burma</option>
+<option>Yangpu,Hainan Province</option>
+<option>Yangshan,Shanghai</option>
+<option>Yangzhou,Jiangsu Province</option>
+<option>Yantai,Shandong Province</option>
+<option>Yantian,Guangdong Province</option>
+<option>Yap,Micronesia Islands</option>
+<option>Yarimca,Turkey</option>
+<option>Yatsushiro,Japan</option>
+<option>Yawata,Japan</option>
+<option>Yckaterinburg,Russia</option>
+<option>Yeochon,South Korea</option>
+<option>Yeosu,South Korea</option>
+<option>Yeravan,Armenia</option>
+<option>Yi Chang,Hubei Province</option>
+<option>Yibin,Sichuan Province</option>
+<option>Yinchuan,Ningxia Province</option>
+<option>Yingkou,Liaoning Province</option>
+<option>Yiwu,Zhejiang Province</option>
+<option>Yixing,Jiangsu Province</option>
+<option>Yokkaichi,Japan</option>
+<option>Yokohama,Japan</option>
+<option>Yokosuka,Japan</option>
+<option>Yueyang,Hunan Province</option>
+<option>Yunfu,Guangdong Province</option>
+<option>Yunnan,Sichuan Province</option>
+<option>Yuyao,Zhejiang Province</option>
+<option>Zabaykalsk,Russia</option>
+<option>Zagreb,Croatia</option>
+<option>Zahony,Hungary</option>
+<option>Zambia,Africa</option>
+<option>Zamboanga,Philippines</option>
+<option>Zanzibar,Tanzania</option>
+<option>Zarate,Argentina</option>
+<option>Zarqa Free Zone,Jordan</option>
+<option>Zashita,Kazakhstan</option>
+<option>Zeebrugge,Belgium</option>
+<option>Zha Pu,Zhejiang Province</option>
+<option>Zhangjiagang,Jiangsu Province</option>
+<option>Zhangjiakou,Jiangsu Province</option>
+<option>Zhangzhou,Fujian Province</option>
+<option>Zhanjiang,Guangdong Province</option>
+<option>Zhaogang,China</option>
+<option>Zhaoqing,Guangdong Province</option>
+<option>Zhaoqing New Port,Guangdong Province</option>
+<option>Zhengzhou,Henan Province</option>
+<option>Zhenjiang,Jiangsu Province</option>
+<option>Zhenping,Henan Province</option>
+<option>Zhezkazgan,Kazakhstan</option>
+<option>Zhizhudao,Guangdong Province</option>
+<option>Zhongshan,Guangdong Province</option>
+<option>Zhongxinzhou,Guangdong Province</option>
+<option>Zhoushan,Zhejiang Province</option>
+<option>Zhoutouzui,Guangdong Province</option>
+<option>Zhuhai,Guangdong Province</option>
+<option>Zhuhai Port (Gaolan),Guangdong Province</option>
+<option>Zhuzhou,Hunan Province</option>
+<option>Zibo,Shandong Province</option>
+<option>Zimbabwe,Africa</option>
+<option>Zlin,Belgium</option>
+<option>Zurich,Switzerland</option>
+    </datalist>
+    <input  autoComplete="on" list="suggestions"/> 
+</div>
+<body>
+    <label for="Select PickUp Point"><h2>Select PickUp Point</h2></label>
+    <select name="Select PickUp Point" id="Select PickUp Point" required>
+      <option value="CFS">CFS</option>
+      <option value="FACTORY">FACTORY</option>
+      <option value="ICD">ICD</option>
+      <option value="PORT">PORT</option>
+    </select>
+  </body>
+    <div>
+        <h2>Select Delivery ORIGIN</h2>
+            <datalist id="suggestions" required>
+        <option>Aachen,Germany</option>   
+        <option>Aalesund,Denmark</option>
+        <option>Aarhus,Denmark</option>
+        <option>Abaco,Bahamas</option>
+        <option>Abakan,Russia</option>
+        <option>Abidjan,Ivory Coast</option>
+        <option>Abu Dhabi,United Arab Emirates</option>
+        <option>Aburatsu,Japan</option>
+        <option>Acajutla,Republic of El Salvador</option>
+        <option>Acapulco,Mexico</option>
+        <option>Adabiya,Egypt</option>
+        <option>Addis Ababa,Ethiopia</option>
+        <option>Adelaide,South Australia</option>
+        <option>Aden,Yemen</option>
+        <option>Agadir,Morocco</option>
+        <option>Agira (Inland Point),Italy</option>
+        <option>Ahmedabad,India</option>
+        <option>Ain Sokhna,Egypt</option>
+        <option>Aitutaki,Cook Islands</option>
+        <option>Ajman,United Arab Emirates</option>
+        <option>Akita,Japan</option>
+        <option>Akmola,Kazakhstan</option>
+        <option>Aktau,Kazakhstan</option>
+        <option>Aktobe,Kazakhstan</option>
+        <option>Al Aqabah,Jordan</option>
+        <option>AL Iskandariyah,Egypt</option>
+        <option>AL Jubail,Saudi Arabia</option>
+        <option>Al Khoms,Libya</option>
+        <option>Alacahoyuk,Turkey</option>
+        <option>Alashankou,Mongolia</option>
+        <option>Alaska,United States</option>
+        <option>Albany,United States</option>
+        <option>Alexandria,Egypt</option>
+        <option>Algeciras,Spain</option>
+        <option>Algiers,Algeria</option>
+        <option>Aliaga,Turkey</option>
+        <option>Alicante,Spain</option>
+        <option>Almaty,Kazakhstan</option>
+        <option>Alotau,Papua New Guinea</option>
+        <option>Alsancak,Turkey</option>
+        <option>Altamira,Mexico</option>
+        <option>Ambarli,Turkey</option>
+        <option>Amman,Jordan</option>
+        <option>Amsterdam,Netherlands</option>
+        <option>An Ping,Guangdong Province</option>
+        <option>Anacortes,Washington</option>
+        <option>Anchorage,Alaska</option>
+        <option>Ancona,Italy</option>
+        <option>Anderson,South Carolina</option>
+        <option>Angamos,Chile</option>
+        <option>Annaba,Algeria</option>
+        <option>Anqing,Anhui Province</option>
+        <option>Anshun,Guizhou Province</option>
+        <option>Antalya,Turkey</option>
+        <option>Antigua,Guatemala</option>
+        <option>Antofagasta,Chile</option>
+        <option>Antwerp,Belgium</option>
+        <option>Anzherskaya,Russia</option>
+        <option>Aotou,Guangdong Province</option>
+        <option>Apapa,Nigeria</option>
+        <option>Apia,Western Samoa</option>
+        <option>Aqaba,Jordan</option>
+        <option>Aqaba Zerka Free Zone,Jordan</option>
+        <option>Archangelsk,Russia</option>
+        <option>Arica,Chile</option>
+        <option>Arieki,Malaysia</option>
+        <option>Aruba,Netherlands Antilles</option>
+        <option>Ashdod,Israel</option>
+        <option>Ashgabat,Turkmenistan</option>
+        <option>Ashkelon,Israel</option>
+        <option>Ashkhabad,Russia</option>
+        <option>Asmara,Ethiopia</option>
+        <option>Assab,Ethiopia</option>
+        <option>Astana,Kazakhstan</option>
+        <option>Astrakhan,Russia</option>
+        <option>Asuncion,Paraguay</option>
+        <option>Athens,Greece</option>
+        <option>Atlanta,Georgia</option>
+        <option>Atlixco,Mexico</option>
+        <option>Atyrau,Kazakhstan</option>
+        <option>Auckland,New Zealand</option>
+        <option>Auxerre,France</option>
+        <option>Avcilar,Turkey</option>
+        <option>Avignon,France</option>
+        <option>Azov,Russia</option>
+        <option>Baghdad,Iraq</option>
+        <option>Baguio,Philippines</option>
+        <option>Bahama,Caribbean</option>
+        <option>Bahrain,Persian Gulf</option>
+        <option>Baku,Azerbaijan</option>
+        <option>Balboa,Panama</option>
+        <option>Balclutha,New Zealand</option>
+        <option>Balikpapan,Indonesia</option>
+        <option>Baltimore,Maryland</option>
+        <option>Bamako,Mali</option>
+        <option>Bangalore,India</option>
+        <option>Bangbu,Anhui Province</option>
+        <option>Bangkok,Thailand</option>
+        <option>Bangkok (BMT),Thailand</option>
+        <option>Bangkok (PAT),Thailand</option>
+        <option>Bangkok (SCT),Thailand</option>
+        <option>Bangkok (TPT),Thailand</option>
+        <option>Bangkok (Unithai),Thailand</option>
+        <option>Bangkok (UTCT),Thailand</option>
+        <option>Bangpakong,Thailand</option>
+        <option>Banjul,Gambia</option>
+        <option>Baoan,Guangdong Province</option>
+        <option>Baoying,Jiangsu Province</option>
+        <option>Bar,Serbia</option>
+        <option>Barcelona,Spain</option>
+        <option>Bari,Italy</option>
+        <option>Barnaul,Russia</option>
+        <option>Barranquilla,Colombia</option>
+        <option>Bartlett,United States</option>
+        <option>Basamuk,Papua New Guinea</option>
+        <option>Basel,Switzerland</option>
+        <option>Basra,Iraq</option>
+        <option>Basse-Terre,ST. Kitts</option>
+        <option>Basuo,Hainan Province</option>
+        <option>Bata,Equatorial Guinea</option>
+        <option>Batam,Indonesia</option>
+        <option>Batangas,Philippines</option>
+        <option>Baton Rouge,Louisiana</option>
+        <option>Batu Ampar,Indonesia</option>
+        <option>Batumi,Georgia</option>
+        <option>Beaumont,U.K.</option>
+        <option>Beicun,Guangdong Province</option>
+        <option>Beihai,Guangxi Province</option>
+        <option>Beijiao,Guangdong Province</option>
+        <option>Beijing,China</option>
+        <option>Beira,Mozambique</option>
+        <option>Beirut,Lebanon</option>
+        <option>Bejaia,Algeria</option>
+        <option>Belawan,Indonesia</option>
+        <option>Belem,Brazil</option>
+        <option>Belfast,Ireland</option>
+        <option>Belgorad,Russia</option>
+        <option>Belgrade,Serbia</option>
+        <option>Belize,Belize</option>
+        <option>Bell Bay,Australia</option>
+        <option>Benete Bay,Indonesia</option>
+        <option>Benghazi,Libya</option>
+        <option>Benguela,Angola</option>
+        <option>Beograd,Serbia</option>
+        <option>Berbera,Somalia</option>
+        <option>Berkakit,Russia</option>
+        <option>Berlin,Germany</option>
+        <option>Besancon,France</option>
+        <option>Bielefeld,Germany</option>
+        <option>Bilbao,Spain</option>
+        <option>Bingazi,Libya</option>
+        <option>Bintulu,Malaysia</option>
+        <option>Birmingham,U.K.</option>
+        <option>Birobidzhan,Russia</option>
+        <option>Bishkek,Kyrgyzstan</option>
+        <option>Bissau,Guinea</option>
+        <option>Biysk,Russia</option>
+        <option>Bizerte,Tunisia</option>
+        <option>Blagoveschensk,Russia</option>
+        <option>Blantyre,Malawi</option>
+        <option>Blois,France</option>
+        <option>Bluff,New Zealand</option>
+        <option>Bobruysk,Russia</option>
+        <option>Bogota,Colombia</option>
+        <option>Bologna (Inland Point),Italy</option>
+        <option>Boma,Zaire</option>
+        <option>Bombay,India</option>
+        <option>Bonaire,Netherlands</option>
+        <option>Bonneuil Sur Marne,France</option>
+        <option>Bordeaux,France</option>
+        <option>Bosperus,Turkey</option>
+        <option>Boston,Massachusetts</option>
+        <option>Botswana,Africa</option>
+        <option>Bourg,France</option>
+        <option>Bratislava,Slovakia</option>
+        <option>Bregenz,Austria</option>
+        <option>Breinigsvolle,United States</option>
+        <option>Bremen,Germany</option>
+        <option>Bremerhaven,Germany</option>
+        <option>Briansk,Russia</option>
+        <option>Bridgetown,Barbados</option>
+        <option>Brisbane,Australia</option>
+        <option>Bristol,U.K.</option>
+        <option>Brno,Czech Republic</option>
+        <option>Brunei,Brunei</option>
+        <option>Brunswick,Georgia</option>
+        <option>Brussels,Belgium</option>
+        <option>Brzeg Dolny,Poland</option>
+        <option>Brzesc,Russia</option>
+        <option>Bucharest,Romania</option>
+        <option>Budapest,Hungary</option>
+        <option>Buenaventura,Colombia</option>
+        <option>Buenos Aires,Argentina</option>
+        <option>Bufalo,Honduras</option>
+        <option>Bugo,Philippines</option>
+        <option>Bujumbuba,East Africa</option>
+        <option>Bukavu,East Africa</option>
+        <option>Bukhara,Russia</option>
+        <option>Bulawayo,Zimbabwe</option>
+        <option>Burgas,Bulgaria</option>
+        <option>Burlington,New Jersey</option>
+        <option>Burnie,Australia</option>
+        <option>Busan,South Korea</option>
+        <option>Busan/Pui,South Korea</option>
+        <option>Bydgoszcz,Poland</option>
+        <option>Caacupemi,Paraguay</option>
+        <option>Cabedello,Brazil</option>
+        <option>Cabinda,Angola</option>
+        <option>Cadiz,Spain</option>
+        <option>Cagayan de Oro,Philippines</option>
+        <option>Cagliari,Italy</option>
+        <option>Cai Mep,Vietnam</option>
+        <option>Cailan,Vietnam</option>
+        <option>Cairns,Queensland</option>
+        <option>Cairo,Egypt</option>
+        <option>Calabar,Nigeria</option>
+        <option>Calcutta,India</option>
+        <option>Caldera,Costa Rica</option>
+        <option>Calgary,Alberta</option>
+        <option>Callao,Peru</option>
+        <option>Cambodia,Vietnam</option>
+        <option>Cambridge,New Zealand</option>
+        <option>Camden,U.K.</option>
+        <option>Can Tho,Vietnam</option>
+        <option>Canakkale,Turkey</option>
+        <option>Canoas,Brazil</option>
+        <option>Cantho,Vietnam</option>
+        <option>Cao Fei Dian,Hebei Province</option>
+        <option>Cape Town,South Africa</option>
+        <option>Cape Verde,Africa</option>
+        <option>Caracas,Venezuela</option>
+        <option>Caribbean Islands,Caribbean</option>
+        <option>Carson,United States</option>
+        <option>Cartagena,Colombia</option>
+        <option>Cartago,Colombia</option>
+        <option>Casablanca,Morocco</option>
+        <option>Castellon,Spain</option>
+        <option>Castries,ST. Lucia</option>
+        <option>Catania,Italy</option>
+        <option>Caucedo,Dominican Republic</option>
+        <option>Cavaglia (Inland Point),Italy</option>
+        <option>Cayenne Fr.,Guyana</option>
+        <option>Cebu,Philippines</option>
+        <option>Ceuta,Morocco</option>
+        <option>Chalon-Sur-Marne,France</option>
+        <option>Chalon-Sur-Saone,France</option>
+        <option>Chanaral,Chile</option>
+        <option>Changchun,Jilin Province</option>
+        <option>Changle,Fujian Province</option>
+        <option>Changsha,Hunan Province</option>
+        <option>Changshu,Jiangsu Province</option>
+        <option>Changzhou,Jiangsu Province</option>
+        <option>Chaohu,Anhui Province</option>
+        <option>Chaozhou,Guangdong Province</option>
+        <option>Charkov,Russia</option>
+        <option>Charleston,South Carolina</option>
+        <option>Charlestown,Nevis</option>
+        <option>Charlotte,North Carolina</option>
+        <option>Charlotte Amalie,ST. Thomas</option>
+        <option>Chattanooga,Tennessee</option>
+        <option>Chattogram,Bangladesh</option>
+        <option>Cheljabinsk,Russia</option>
+        <option>Chen Lian Ji,Hunan Province</option>
+        <option>Chengdu,Sichuan Province</option>
+        <option>Chenghai,Guangdong Province</option>
+        <option>Chenglingji,Hunan Province</option>
+        <option>Chennai,India</option>
+        <option>Cherkassy,Ukraine</option>
+        <option>Chiasso,Switzerland</option>
+        <option>Chiba,Japan</option>
+        <option>Chicago,Illinois</option>
+        <option>Chimbote,Chile</option>
+        <option>Chimkent,Kazakhstan</option>
+        <option>Chingyuan,Henan Province</option>
+        <option>Chistiansted,ST. Croix</option>
+        <option>Chita,Russia</option>
+        <option>Chittagong,Bangladesh</option>
+        <option>Chiwan,Guangdong Province</option>
+        <option>Choloma,Honduras</option>
+        <option>Chongqing,China</option>
+        <option>Christchurch,New Zealand</option>
+        <option>Christiansted,ST. Croix</option>
+        <option>Chu Lai,Vietnam</option>
+        <option>Chuangsha,Jiangsu Province</option>
+        <option>Chuansha,Shanghai</option>
+        <option>Chuuk,Micronesia Islands</option>
+        <option>Chymkent,Kyrgyzstan</option>
+        <option>Cincinnati,Ohio</option>
+        <option>Ciudad Del Este,Paraguay</option>
+        <option>Civitavecchia,Italy</option>
+        <option>Clermont-Ferrand,France</option>
+        <option>Cleveland,Ohio</option>
+        <option>Coatzacoalcos,Mexico</option>
+        <option>Cochabamba,Bolivia</option>
+        <option>Cochin,India</option>
+        <option>Cocosolo,Panama</option>
+        <option>Coega-Ngqura,South Africa</option>
+        <option>Coimbatore,India</option>
+        <option>Cologne,Germany</option>
+        <option>Cologno Monzese (Inland Point),Italy</option>
+        <option>Colombo,Sri Lanka</option>
+        <option>Colon,Panama</option>
+        <option>Columbus,Ohio</option>
+        <option>Comores,India</option>
+        <option>Conakry,Guinea</option>
+        <option>Conception Bay,Chile</option>
+        <option>Connellsville,United States</option>
+        <option>Constanta,Romania</option>
+        <option>Copenhagen,Denmark</option>
+        <option>Coquimbo,Chile</option>
+        <option>Cordoba,Argentina</option>
+        <option>Corinto,Nicaragua</option>
+        <option>Cork,Ireland</option>
+        <option>Coronel,Chile</option>
+        <option>Corpus Christi,United States</option>
+        <option>Corsicana,Texas</option>
+        <option>Cotabato,Philippines</option>
+        <option>Cotonou,Benin</option>
+        <option>Cremona (Inland Point),Italy</option>
+        <option>Cristobal,Panama</option>
+        <option>Cuemavaca,Mexico</option>
+        <option>Cuenca,Spain</option>
+        <option>Curacao,Curacao</option>
+        <option>Curitiba,Brazil</option>
+        <option>Czestochowa,Poland</option>
+        <option>Da Chan Bay,Guangdong Province</option>
+        <option>Dachen,Zhejiang Province</option>
+        <option>Dadri,India</option>
+        <option>Daesan,South Korea</option>
+        <option>Dafeng,Jiangsu Province</option>
+        <option>Daganwei (Guangzhou),Guangdong Province</option>
+        <option>Dakar,Senegal</option>
+        <option>Dalian,Liaoning Province</option>
+        <option>Dallas,Texas</option>
+        <option>Dalta Port,Egypt</option>
+        <option>Damietta,Egypt</option>
+        <option>Dammam,Saudi Arabia</option>
+        <option>Dampier,Australia</option>
+        <option>Danang,Vietnam</option>
+        <option>Dandong,Liaoning Province</option>
+        <option>Dapeng,Guangdong Province</option>
+        <option>Dar es Salaam,Tanzania</option>
+        <option>Darkhan,Mongolia</option>
+        <option>Darwin,Australia</option>
+        <option>Datian,Fujian Province</option>
+        <option>Datong,Guangdong Province</option>
+        <option>Davao,Philippines</option>
+        <option>Dayabay,Guangdong Province</option>
+        <option>Dekheila,Egypt</option>
+        <option>Delhi,India</option>
+        <option>Denver,Colorado</option>
+        <option>Derince,Turkey</option>
+        <option>Derna,Libya</option>
+        <option>Destrehan,United States</option>
+        <option>Detroit,Michigan</option>
+        <option>Dhaka,Bangladesh</option>
+        <option>Diego Suarez,Madagascar</option>
+        <option>Dijon,France</option>
+        <option>Dili,Timor</option>
+        <option>Djen Djen,Algeria</option>
+        <option>Djibouti,East Africa</option>
+        <option>Dnepropetrovsk,Russia</option>
+        <option>Do Ma Tou,Guangdong Province</option>
+        <option>Doha,Qatar</option>
+        <option>Dole,France</option>
+        <option>Dominican,Dominican Republic</option>
+        <option>Donetsk,Ukraine</option>
+        <option>Dongguan,Guangdong Province</option>
+        <option>Dongjiakou,Guangdong Province</option>
+        <option>Dongjiangcang,Guangdong Province</option>
+        <option>Dongshan,Fujian Province</option>
+        <option>Dortmund,Germany</option>
+        <option>Douala,Cameroon</option>
+        <option>Doumen,Guangdong Province</option>
+        <option>Dresden,Germany</option>
+        <option>Druzba,Kazakhstan</option>
+        <option>Dubai,United Arab Emirates</option>
+        <option>Dublin,Ireland</option>
+        <option>Duesseldorf,Germany</option>
+        <option>Duisburg,Germany</option>
+        <option>Dumyat,Egypt</option>
+        <option>Dunedin,New Zealand</option>
+        <option>Dunkerque,France</option>
+        <option>Dunkirk,France</option>
+        <option>Durban,South Africa</option>
+        <option>Durres,Albania</option>
+        <option>Dushanbe,Tajikistan</option>
+        <option>Dusseldorf,Germany</option>
+        <option>Dutch Harbor,United States</option>
+        <option>Dzaoudzi,Mayotte</option>
+        <option>Dzhezkazgan,Kazakhstan</option>
+        <option>East Canada,Canada</option>
+        <option>East London,South Africa</option>
+        <option>Ebeye,Marina Islands</option>
+        <option>Edincik,Turkey</option>
+        <option>Edison,New Jersey</option>
+        <option>Edmonton,Canada</option>
+        <option>Ehoala,Madagascar</option>
+        <option>Eilat,Israel</option>
+        <option>Ekaterinburg,Russia</option>
+        <option>El Dekhelia,Egypt</option>
+        <option>El Guamache,Venezuela</option>
+        <option>El Paso,Honduras</option>
+        <option>El Progreso,Honduras</option>
+        <option>El Salvador,Republic of El Salvador</option>
+        <option>El-Dekheila,Egypt</option>
+        <option>Embakasi,Kenya</option>
+        <option>Encarnacion,Mexico</option>
+        <option>Enping,Guangdong Province</option>
+        <option>Ensenada,Mexico</option>
+        <option>Erdenet,Mongolia</option>
+        <option>Eren,Inner Mongolia</option>
+        <option>Erlian,Inner Mongolia</option>
+        <option>Esmeraldas,Ecuador</option>
+        <option>Esperance,Australia</option>
+        <option>Essen,Germany</option>
+        <option>Estonia,Russia</option>
+        <option>Everett,Washington</option>
+        <option>Evyap Port,Turkey</option>
+        <option>Exuma,Bahamas</option>
+        <option>Famagusta,Cyprus</option>
+        <option>Fangcheng,Guangxi Province</option>
+        <option>Fangcun,Guangdong Province</option>
+        <option>Felixstowe,U.K.</option>
+        <option>Fenghua,Zhejiang Province</option>
+        <option>Fenghuojiao (Tai Shan),Guangdong Province</option>
+        <option>Fengxian,Jiangsu Province</option>
+        <option>Fergana,Russia</option>
+        <option>Fernandina Beach,Florida</option>
+        <option>Florence,Italy</option>
+        <option>Floroe,Norway</option>
+        <option>Flushing,Netherlands</option>
+        <option>Fontana,California</option>
+        <option>Fort de France,Martinique</option>
+        <option>Fortaleza,Brazil</option>
+        <option>Fos Sur Mer,France</option>
+        <option>Foshan,Guangdong Province</option>
+        <option>Frankfurt,Germany</option>
+        <option>Fredericia,Denmark</option>
+        <option>Freeport,Bahamas</option>
+        <option>Freetown,Sierra Leone</option>
+        <option>Fremantle,Western Australia</option>
+        <option>Fremont,California</option>
+        <option>Frontroyal,Virginia</option>
+        <option>Frunze,Russia</option>
+        <option>Fujairah,United Arab Emirates</option>
+        <option>Fukuoka,Japan</option>
+        <option>Fukuyama,Japan</option>
+        <option>Funafuti,Tuvalu</option>
+        <option>Fuqing,Fujian Province</option>
+        <option>Fuzhou,Fujian Province</option>
+        <option>Gaborone,Botswana</option>
+        <option>Galveston,Texas</option>
+        <option>Gamagori,Japan</option>
+        <option>Gaolan (Zhuhai),Guangdong Province</option>
+        <option>Gaoming,Guangdong Province</option>
+        <option>Gaosha,Guangdong Province</option>
+        <option>Gaoyao,Guangdong Province</option>
+        <option>Gaoyou,Jiangsu Province</option>
+        <option>Gatemala City,Guatemala</option>
+        <option>Gatun,Panama</option>
+        <option>Gdansk,Poland</option>
+        <option>Gdynia,Poland</option>
+        <option>Gebze,Turkey</option>
+        <option>Geelong,Australia</option>
+        <option>Gemlik,Turkey</option>
+        <option>General Santos City,Philippines</option>
+        <option>Geneve,Switzerland</option>
+        <option>Gennevilliers,France</option>
+        <option>Genoa (Genova),Italy</option>
+        <option>Geoje,South Korea</option>
+        <option>George Town,Guyana</option>
+        <option>Geraldton,Australia</option>
+        <option>Ghazaouete,Algeria</option>
+        <option>Ghent,Belgium</option>
+        <option>Gibraltar,Spain</option>
+        <option>Gijon,Spain</option>
+        <option>Gioia Tauro,Italy</option>
+        <option>Girdwood,Alaska</option>
+        <option>Gladstone,Australia</option>
+        <option>Glasgow,Scotland</option>
+        <option>Gliwice,Poland</option>
+        <option>Gomel,Russia</option>
+        <option>Gongyi,Henan Province</option>
+        <option>Gothenburg,Sweden</option>
+        <option>Grand Rapids,United States</option>
+        <option>Grand Turk,Caribbean</option>
+        <option>Grangemouth,U.K.</option>
+        <option>Grays,U.K.</option>
+        <option>Graz,Austria</option>
+        <option>Greensboro,North Carolina</option>
+        <option>Guadalajara,Mexico</option>
+        <option>Guam,Mariana Islands</option>
+        <option>Guang Bao Tong,Guangdong Province</option>
+        <option>Guangzhou,Guangdong Province</option>
+        <option>Guanta,Venezuela</option>
+        <option>Guarulhos,Brazil</option>
+        <option>Guatemala City,Guatemala</option>
+        <option>Guayaquil,Ecuador</option>
+        <option>Guaymas,Mexico</option>
+        <option>Guigang,Guangxi Province</option>
+        <option>Guilin,Guangxi Province</option>
+        <option>Guinea-Bissau,Western Africa</option>
+        <option>Guiyang,Guizhou Province</option>
+        <option>Guizhou,Guangdong Province</option>
+        <option>Gustavia,ST. Barths</option>
+        <option>Gwangyang,South Korea</option>
+        <option>Hachinohe,Japan</option>
+        <option>Hagen,Germany</option>
+        <option>Haian,Hainan Province</option>
+        <option>Haifa,Israel</option>
+        <option>Haifeng,Guangdong Province</option>
+        <option>Haikou,Hainan Province</option>
+        <option>Haimen,Zhejiang Province</option>
+        <option>Hainan,Fujian Province</option>
+        <option>Haining,Zhejiang Province</option>
+        <option>Haiphong,Vietnam</option>
+        <option>Hairaton,Afghanistan</option>
+        <option>Hairun,Fujian Province</option>
+        <option>Haiti,Caribbean</option>
+        <option>Haitian,Fujian Province</option>
+        <option>Hakata,Japan</option>
+        <option>Hakodate,Japan</option>
+        <option>Haldia,India</option>
+        <option>Halifax,Nova Scotia</option>
+        <option>Hamad Port,Qatar</option>
+        <option>Hamada,Japan</option>
+        <option>Hamburg,Germany</option>
+        <option>Hamilton,New Zealand</option>
+        <option>Hamina,Finland</option>
+        <option>Hangzhou,Zhejiang Province</option>
+        <option>Hanjiang,Fujian Province</option>
+        <option>Hankou,Hubei Province</option>
+        <option>Hannover,Germany</option>
+        <option>Hanoi,Vietnam</option>
+        <option>Harare,Zimbabwe</option>
+        <option>Harbin,Heilongjiang Province</option>
+        <option>Hartford,Michigan</option>
+        <option>Haydarpasa,Turkey</option>
+        <option>Hazira,India</option>
+        <option>Hebron,Ohio</option>
+        <option>Hefei,Anhui Province</option>
+        <option>Hehou (Xin Hui),Guangdong Province</option>
+        <option>Helsingborg,Sweden</option>
+        <option>Helsinki,Finland</option>
+        <option>Hengyang,Hunan Province</option>
+        <option>Herakleion,Greece</option>
+        <option>Heshan,Guangdong Province</option>
+        <option>Hialeah,United States</option>
+        <option>Hibiki,Japan</option>
+        <option>Hibikinada,Japan</option>
+        <option>Higashiharima,Japan</option>
+        <option>Hilo,Hawaii</option>
+        <option>Himeji,Japan</option>
+        <option>Hiroshima,Japan</option>
+        <option>Hitachi,Japan</option>
+        <option>Hitachinaka,Japan</option>
+        <option>Ho Chi Minh (Catlai),Vietnam</option>
+        <option>Ho Chi Minh (Newport),Vietnam</option>
+        <option>Ho Chi Minh City,Vietnam</option>
+        <option>Hobart,Australia</option>
+        <option>Hodeidah,Yemen</option>
+        <option>Hohhot,Inner Mongolia</option>
+        <option>Hon Gai,Vietnam</option>
+        <option>Hong Kong,Hong Kong</option>
+        <option>Hongkou,Jiangsu Province</option>
+        <option>Honiara,Solomon Islands</option>
+        <option>Honolulu,Hawaii</option>
+        <option>Hososhima,Japan</option>
+        <option>Houston,Texas</option>
+        <option>Hua Sai,Vietnam</option>
+        <option>Huadu,Guangdong Province</option>
+        <option>Huainan,Anhui Province</option>
+        <option>Huang Dao,South Korea</option>
+        <option>Huang Shi,Hubei Province</option>
+        <option>Huanghua,Hebei Province</option>
+        <option>Huangpu,Guangdong Province</option>
+        <option>Huangqi,Fujian Province</option>
+        <option>Huangshan,Anhui Province</option>
+        <option>Huizhou,Guangdong Province</option>
+        <option>Hull,U.K.</option>
+        <option>Humen,Guangdong Province</option>
+        <option>Huntington,United States</option>
+        <option>Huntsville,United States</option>
+        <option>Hyderabad,India</option>
+        <option>Hyogo,Japan</option>
+        <option>Ijmuiden,Netherlands</option>
+        <option>Iligan,Philippines</option>
+        <option>Illichivsk,Ukraine</option>
+        <option>Ilo,Peru</option>
+        <option>Ilyichevsk,Ukraine</option>
+        <option>Imabari,Japan</option>
+        <option>Imari,Japan</option>
+        <option>Imbituba,Brazil</option>
+        <option>Immingham,U.K.</option>
+        <option>Inchon,South Korea</option>
+        <option>Indianapolis,Indiana</option>
+        <option>Innsbruck,Austria</option>
+        <option>Innxv,India</option>
+        <option>Invercargill,New Zealand</option>
+        <option>Invergordon,Scotland</option>
+        <option>Ipoh,Malaysia</option>
+        <option>Ipswich,U.K.</option>
+        <option>Iquique,Chile</option>
+        <option>Irbid,Jordan</option>
+        <option>Irkutsk,Russia</option>
+        <option>Irun,Spain</option>
+        <option>Ishigaki,Japan</option>
+        <option>Ishikari,Japan</option>
+        <option>Ishikariwan,Japan</option>
+        <option>Ishino Maki,Japan</option>
+        <option>Iskenderun,Turkey</option>
+        <option>Islam Qala,Afghanistan</option>
+        <option>Istanbul,Turkey</option>
+        <option>Itaguai,Brazil</option>
+        <option>Itajai,Brazil</option>
+        <option>Itapetinga,Brazil</option>
+        <option>Itapoa,Brazil</option>
+        <option>Itaqui,Brazil</option>
+        <option>Iwakuni,Japan</option>
+        <option>Iyomishima,Japan</option>
+        <option>Izmir,Turkey</option>
+        <option>Izmit,Turkey</option>
+        <option>Izmit Korfezi,Turkey</option>
+        <option>Jacksonville,Florida</option>
+        <option>Jaipur,India</option>
+        <option>Jakarta,Indonesia</option>
+        <option>Jakarta UTC1,Indonesia</option>
+        <option>Jakarta UTC3,Indonesia</option>
+        <option>Jawaharlal Nehru,India</option>
+        <option>Jebel Ali,United Arab Emirates</option>
+        <option>Jebel Ali Freezone,United Arab Emirates</option>
+        <option>Jeddah,Saudi Arabia</option>
+        <option>Jelenia Gora,Poland</option>
+        <option>Jiading,Shanghai</option>
+        <option>Jiamusi,Heilongjiang Province</option>
+        <option>Jiang Tang,China</option>
+        <option>Jiangmen,Guangdong Province</option>
+        <option>Jiangyin,Jiangsu Province</option>
+        <option>Jiankou,Fujian Province</option>
+        <option>Jiaojiang,Zhejiang Province</option>
+        <option>Jiaokou,Guangdong Province</option>
+        <option>Jiaoxin,Guangdong Province</option>
+        <option>Jiaxing,Zhejiang Province</option>
+        <option>Jiazi (Lu Feng),Guangdong Province</option>
+        <option>Jieyang,Guangdong Province</option>
+        <option>Jinan,Shandong Province</option>
+        <option>Jing Tang,Shandong Province</option>
+        <option>Jingan,Guangdong Province</option>
+        <option>Jinghua,Zhejiang Province</option>
+        <option>Jingjiang,Jiangsu Province</option>
+        <option>Jinguzhou,Guangdong Province</option>
+        <option>Jinshan,Shanghai</option>
+        <option>Jinzhou,Liaoning Province</option>
+        <option>Jisi,Guangdong Province</option>
+        <option>Jiujiang,Jiangxi Province</option>
+        <option>Jiujiang (Nanhai),Guangdong Province</option>
+        <option>Jiuzhou,Guangdong Province</option>
+        <option>Johannesburg,South Africa</option>
+        <option>Johor,Malaysia</option>
+        <option>Jubail,Saudi Arabia</option>
+        <option>Kabil,Indonesia</option>
+        <option>Kabul,Afghanistan</option>
+        <option>Kachkanar,Russia</option>
+        <option>Kaduna,Nigeria</option>
+        <option>Kagoshima,Japan</option>
+        <option>Kahului,Hawaii</option>
+        <option>Kaifeng,Henan Province</option>
+        <option>Kaiping,Guangdong Province</option>
+        <option>Kakinada,India</option>
+        <option>Kakogawa,Japan</option>
+        <option>Kaliningrad,Russia</option>
+        <option>Kaluga,Russia</option>
+        <option>Kam Pong Som,Cambodia</option>
+        <option>Kamchatka,Russia</option>
+        <option>Kampala,Uganda</option>
+        <option>Kanazawa,Japan</option>
+        <option>Kandahar,Afghanistan</option>
+        <option>Kandla,India</option>
+        <option>Kansas City,Kansas</option>
+        <option>Kantang,Thailand</option>
+        <option>Kaohsiung,China Taiwan</option>
+        <option>Karachi,Pakistan</option>
+        <option>Karaganda,Kazakhstan</option>
+        <option>Karatsu,Japan</option>
+        <option>Kashima,Japan</option>
+        <option>Kassel,Germany</option>
+        <option>Kathmandu,Nepal</option>
+        <option>Katowice,Poland</option>
+        <option>Kattupalli,India</option>
+        <option>Kavieng,Papua New Guinea</option>
+        <option>Kavkaz,Russia</option>
+        <option>Kawaihae,Hawaii</option>
+        <option>Kawasaki,Japan</option>
+        <option>Kayes,Mali</option>
+        <option>Kazan,Russia</option>
+        <option>Kearny,New Jersey</option>
+        <option>Keelung,China Taiwan</option>
+        <option>Kemaman,Malaysia</option>
+        <option>Kemerovo,Russia</option>
+        <option>Kenai,Alaska</option>
+        <option>Kent,United States</option>
+        <option>Khabarovsk,Russia</option>
+        <option>Khalifa,United Arab Emirates</option>
+        <option>Kharkov,Ukraine</option>
+        <option>Khartoum,Sudan</option>
+        <option>Khasan,Russia</option>
+        <option>Khoms,Africa</option>
+        <option>Khor Fakkan,United Arab Emirates</option>
+        <option>Khorol,Russia</option>
+        <option>Khudjand,Kazakhstan</option>
+        <option>Kiel,Germany</option>
+        <option>Kielce,Poland</option>
+        <option>Kiev,Ukraine</option>
+        <option>Kimbe,Papua New Guinea</option>
+        <option>Kimitsu,Japan</option>
+        <option>King Abdullah,Saudi Arabia</option>
+        <option>Kingston,Jamaica</option>
+        <option>Kingstown,Saint Vincent</option>
+        <option>Kinshasa,Zaire</option>
+        <option>Kishinev,Russia</option>
+        <option>Kismayu,Somalia</option>
+        <option>Klagenfurt,Austria</option>
+        <option>Klaipeda,Lithuania</option>
+        <option>Kobe,Japan</option>
+        <option>Kochi,Japan</option>
+        <option>Kokura,Japan</option>
+        <option>Kolkata,India</option>
+        <option>Koln,Germany</option>
+        <option>Koming,Guangdong Province</option>
+        <option>Kompong Som,Cambodia</option>
+        <option>Komsomolsk Na Amur,Russia</option>
+        <option>Koper,Slovenia</option>
+        <option>Koror,Palau</option>
+        <option>Korsakov,Russia</option>
+        <option>Koshichang,Japan</option>
+        <option>Kosrae,Micronesia Islands</option>
+        <option>Kota Kinabalu,Malaysia</option>
+        <option>Kotka,Finland</option>
+        <option>Krakow,Poland</option>
+        <option>Krasnodar,Russia</option>
+        <option>Krasnovosk,Russia</option>
+        <option>Krasnoyarsk,Russia</option>
+        <option>Kribi,Africa</option>
+        <option>Krishnapatnam,India</option>
+        <option>Kristiansand,Norway</option>
+        <option>Kuala Lumpur,Malaysia</option>
+        <option>Kuantan,Malaysia</option>
+        <option>Kuching,Malaysia</option>
+        <option>Kumamoto,Japan</option>
+        <option>Kumport,Turkey</option>
+        <option>Kunming,Yunnan Province</option>
+        <option>Kunsan,South Korea</option>
+        <option>Kunshan,Jiangsu Province</option>
+        <option>Kure,Japan</option>
+        <option>Kurgan,Russia</option>
+        <option>Kursk,Russia</option>
+        <option>KUSAN,South Korea</option>
+        <option>Kushiro,Japan</option>
+        <option>Kustany,Kazakhstan</option>
+        <option>Kuwait,Persian Gulf</option>
+        <option>Kuybyshev,Russia</option>
+        <option>Kwajalein,Micronesia Islands</option>
+        <option>Kwangyang,South Korea</option>
+        <option>Kyoto,Japan</option>
+        <option>La Ceiba,Honduras</option>
+        <option>La Goulette,Tunisia</option>
+        <option>La Guaira,Venezuela</option>
+        <option>La Lima,Honduras</option>
+        <option>La Paz,Bolivia</option>
+        <option>La Spezia,Italy</option>
+        <option>La Union,Republic of El Salvador</option>
+        <option>Labuan,Malaysia</option>
+        <option>Lae,Papua New Guinea</option>
+        <option>Laem Chabang,Thailand</option>
+        <option>Lagos/Apapa,Nigeria</option>
+        <option>Lahat Datu,Malaysia</option>
+        <option>Lahore,Pakistan</option>
+        <option>Laizhou,Guangdong Province</option>
+        <option>Lake Charles,United States</option>
+        <option>Lancaster,California</option>
+        <option>Lanshan,Henan Province</option>
+        <option>Lanshi,Guangdong Province</option>
+        <option>Lanxi,Guangdong Province</option>
+        <option>Lanzhou,Gansu Province</option>
+        <option>Laon,France</option>
+        <option>Laos,Thailand</option>
+        <option>Laredo,United States</option>
+        <option>Larnaca,Cyprus</option>
+        <option>Larvik,Norway</option>
+        <option>Las Minas,Guatemala</option>
+        <option>Las Palmas,Canary Islands</option>
+        <option>Lat Krabang,Thailand</option>
+        <option>Latvia,Russia</option>
+        <option>Lautoka,Fiji Island</option>
+        <option>Lawrence,Kansas</option>
+        <option>Lazaro Cardenas,Mexico</option>
+        <option>Le Havre,France</option>
+        <option>Le Verdon,France</option>
+        <option>Leeds,U.K.</option>
+        <option>Leghorn (Livorno),Italy</option>
+        <option>Leicester,U.K.</option>
+        <option>Leipzig,Germany</option>
+        <option>Leith,U.K.</option>
+        <option>Leixoes,Portugal</option>
+        <option>Leliu,Guangdong Province</option>
+        <option>Leninabad,Russia</option>
+        <option>Leon,Mexico</option>
+        <option>Lerma,Spain</option>
+        <option>Lerma Estado de Mexico,Mexico</option>
+        <option>Lesotho,Maseru</option>
+        <option>Levin,New Zealand</option>
+        <option>Lianhuashan,Guangdong Province</option>
+        <option>Lianyungang,Jiangsu Province</option>
+        <option>Liaoning,China</option>
+        <option>Libreville,Gabon</option>
+        <option>Lihir,Papua New Guinea</option>
+        <option>Lilongwe,Malawi</option>
+        <option>Lima,Peru</option>
+        <option>Limassol,Cyprus</option>
+        <option>Limon,Costa Rica</option>
+        <option>Linbai,Zhejiang Province</option>
+        <option>Linkoping,Sweden</option>
+        <option>Linyi,Shandong Province</option>
+        <option>Linz,Austria</option>
+        <option>Lipetsk,Russia</option>
+        <option>Lirquen,Chile</option>
+        <option>Lisbon,Portugal</option>
+        <option>Lithuania,Russia</option>
+        <option>Liudu,Guangdong Province</option>
+        <option>Liuzhou,Guangxi Province</option>
+        <option>Liverpool,U.K.</option>
+        <option>Livorno,Italy</option>
+        <option>Ljubljana,Slovenia</option>
+        <option>Llyichevsk,Ukraine</option>
+        <option>Lobito,Angola</option>
+        <option>Lodz,Poland</option>
+        <option>Lome,Togo</option>
+        <option>London,U.K.</option>
+        <option>London Gateway Port,U.K.</option>
+        <option>Long Beach,California</option>
+        <option>Long Island,Bahamas</option>
+        <option>Longkou,Shandong Province</option>
+        <option>Longoni,Africa</option>
+        <option>Longtan,Jiangsu Province</option>
+        <option>Loni,India</option>
+        <option>Lorengau,Papua New Guinea</option>
+        <option>Los Angeles,California</option>
+        <option>Louisville,United States</option>
+        <option>Luanda,Angola</option>
+        <option>Lubango,Angola</option>
+        <option>Lublin,Poland</option>
+        <option>Lubljana,Slovenia</option>
+        <option>Lubumbashi,Congo</option>
+        <option>Ludhiana,India</option>
+        <option>Ludiana,India</option>
+        <option>Lumut,Indonesia</option>
+        <option>Luoyang,Henan Province</option>
+        <option>Lusaka,Zambia</option>
+        <option>Luxembourg,Luxembourg</option>
+        <option>Luzhou,Sichuan Province</option>
+        <option>Lvov,Russia</option>
+        <option>Lyon,France</option>
+        <option>Lyttelton,New Zealand</option>
+        <option>Ma An Shan,Anhui Province</option>
+        <option>Maaloy,Norway</option>
+        <option>Macau,China</option>
+        <option>Maceio,Brazil</option>
+        <option>Mackay,Queensland</option>
+        <option>Macon,France</option>
+        <option>Madagascar,Africa</option>
+        <option>Madang,Papua New Guinea</option>
+        <option>Madison,N.Y.</option>
+        <option>Madras,India</option>
+        <option>Madrid,Spain</option>
+        <option>Maerak,Indonesia</option>
+        <option>Mafang,Guangdong Province</option>
+        <option>Magadan,Russia</option>
+        <option>Magnitogorsk,Russia</option>
+        <option>Mahajunga,Africa</option>
+        <option>Mahe,Seychelles</option>
+        <option>Mailiao,China Taiwan</option>
+        <option>Maizuru,Japan</option>
+        <option>Majunga,Madagascar</option>
+        <option>Majuro,Marshall Islands</option>
+        <option>Makasaar,Indonesia</option>
+        <option>Malabo,Equatorial Guinea</option>
+        <option>Malacca,Malaysia</option>
+        <option>Malaga,Canary Islands</option>
+        <option>Malawi,Africa</option>
+        <option>Male,Maldves</option>
+        <option>Malmo,Sweden</option>
+        <option>Malongo,Angola</option>
+        <option>Malta,Malta</option>
+        <option>Managua,Nicaragua</option>
+        <option>Manaus,Brazil</option>
+        <option>Manchester,U.K.</option>
+        <option>Mangalore,India</option>
+        <option>Mangyshlak,Kazakhstan</option>
+        <option>Manila (MICT),Philippines</option>
+        <option>Manila (North),Philippines</option>
+        <option>Manila (South),Philippines</option>
+        <option>Mannheim,Germany</option>
+        <option>Manta,Ecuador</option>
+        <option>Manzanillo,Mexico</option>
+        <option>Manzanillo (P),Panama</option>
+        <option>Manzhouli,Inner Mongolia</option>
+        <option>Maoming,Guangdong Province</option>
+        <option>Maptaput,Thailand</option>
+        <option>Maputo,Mozambique</option>
+        <option>Mar Del Plata,Argentina</option>
+        <option>Maracaibo,Venezuela</option>
+        <option>Mardas,Turkey</option>
+        <option>Margarita,Venezuela</option>
+        <option>Mariupol,Russia</option>
+        <option>Marmagao,India</option>
+        <option>Marport,Turkey</option>
+        <option>Marsa Ei Brega,Libya</option>
+        <option>Marsaxlokk,Malta</option>
+        <option>Marsdan Point,New Zealand</option>
+        <option>Marseilles,France</option>
+        <option>Marseilles-Fos,France</option>
+        <option>Marsh Harbour,Bahamas</option>
+        <option>Masan,South Korea</option>
+        <option>Maseru,Lesotho</option>
+        <option>Massawa,Ethiopia</option>
+        <option>Matadi,Zaire</option>
+        <option>Matarani,Peru</option>
+        <option>Matsuyama,Japan</option>
+        <option>Mauritius,Africa</option>
+        <option>Mawan,Guangdong Province</option>
+        <option>Mawei,Fujian Province</option>
+        <option>Mayotte,Comores Islands</option>
+        <option>Mazar-I-Sharif,Afghanistan</option>
+        <option>Mcdondough,United States</option>
+        <option>Medan,Indonesia</option>
+        <option>Medeu,Kazakhstan</option>
+        <option>Megion,Russia</option>
+        <option>Mejillones,Chile</option>
+        <option>Melbourne,Australia</option>
+        <option>Melilla,Morocco</option>
+        <option>Memphis,Tennessee</option>
+        <option>Mendoza,Argentina</option>
+        <option>Merak,Indonesia</option>
+        <option>Meridian,United States</option>
+        <option>Mersin,Turkey</option>
+        <option>Mexicali,Mexico</option>
+        <option>Mexico City,Mexico</option>
+        <option>Miami,Florida</option>
+        <option>Middlesbrough,U.K.</option>
+        <option>Miike,Japan</option>
+        <option>Milan (Inland Point),Italy</option>
+        <option>Milwaukee,South Dakota</option>
+        <option>Mina Qaboos,Persian Gulf</option>
+        <option>Mindanao,Philippines</option>
+        <option>Mindelo,Cape Varde</option>
+        <option>Minneapolis,Minnesota</option>
+        <option>Minnesota,United States</option>
+        <option>Minsk,Russia</option>
+        <option>Mira Loma,California</option>
+        <option>Miri,Malaysia</option>
+        <option>Miskolc,Hungary</option>
+        <option>Mississauga,Canada</option>
+        <option>Misurata,Libya</option>
+        <option>Mizushima,Japan</option>
+        <option>Mobile,Alabama</option>
+        <option>Mogadiscio,Somalia</option>
+        <option>Mogilev,Russia</option>
+        <option>Moji,Japan</option>
+        <option>Mokop,South Korea</option>
+        <option>Mombasa,Kenya</option>
+        <option>Mongla,Bangladesh</option>
+        <option>Monrovia,Liberia</option>
+        <option>Montego Bay,Jamaica</option>
+        <option>Monterrey,Mexico</option>
+        <option>Montevideo,Uruguay</option>
+        <option>Montgomery,Maryland</option>
+        <option>Montoir,France</option>
+        <option>Montpellier,France</option>
+        <option>Montreal,Quebec</option>
+        <option>Montserrat,Caribbean</option>
+        <option>Morehead City,North Carolina</option>
+        <option>Mormagao,India</option>
+        <option>Moroni,Comores Islands</option>
+        <option>Morristown,Tennessee</option>
+        <option>Morrisville,Pennsylvania</option>
+        <option>Moscow,Russia</option>
+        <option>Mostaganem,Algeria</option>
+        <option>Motukea,Papua New Guinea</option>
+        <option>Muara,Brunei</option>
+        <option>Mucuripe,Brazil</option>
+        <option>Mudanjiang,Heilongjiang Province</option>
+        <option>Mukalla,South Yemen</option>
+        <option>Mulund,India</option>
+        <option>Mumbai,India</option>
+        <option>Mundra,India</option>
+        <option>Munich,Germany</option>
+        <option>Muplu,Mauritius Is.</option>
+        <option>Murmans,Russia</option>
+        <option>Murmansk,Russia</option>
+        <option>Muroran,Japan</option>
+        <option>Muscat,Oman</option>
+        <option>Mutare,Zimbabwe</option>
+        <option>Mutsamudu,Comores Islands</option>
+        <option>Nacala,Mozambique</option>
+        <option>Nagasaki,Japan</option>
+        <option>Nagoya,Japan</option>
+        <option>Naha,Japan</option>
+        <option>Nairobi,Kenya</option>
+        <option>Nakanoseki,Japan</option>
+        <option>Nakhodka,Russia</option>
+        <option>Namangan,Uzbekistan</option>
+        <option>Namibe,Angola</option>
+        <option>Nanao,Guangdong Province</option>
+        <option>Nanchang,Jiangxi Province</option>
+        <option>Nangang (Nanhai),Guangdong Province</option>
+        <option>Nanguang,Sichuan Province</option>
+        <option>Nanhai,Guangdong Province</option>
+        <option>Nanhai (Sanshan),Guangdong Province</option>
+        <option>Nanhui,Shanghai</option>
+        <option>Nanjing,Jiangsu Province</option>
+        <option>Nankeng,Hunan Province</option>
+        <option>Nanning,Guangxi Province</option>
+        <option>Nansha (Guangzhou),Guangdong Province</option>
+        <option>Nantong,Jiangsu Province</option>
+        <option>Naoetsu,Japan</option>
+        <option>Napier,New Zealand</option>
+        <option>Naples,Italy</option>
+        <option>Narathiwat,Thailand</option>
+        <option>Nashville,Tennessee</option>
+        <option>Nassau,Bahamas</option>
+        <option>Nauru,Nauru</option>
+        <option>Navegantes,Brazil</option>
+        <option>Nawilwili,Hawaii</option>
+        <option>Ndola,Zambia</option>
+        <option>Nelson,New Zealand</option>
+        <option>Nemrut Bay,Turkey</option>
+        <option>Neryungri,Russia</option>
+        <option>Nevers,France</option>
+        <option>New Castle,U.K.</option>
+        <option>New Delhi,India</option>
+        <option>New Jersey,New Jersey</option>
+        <option>New London,United States</option>
+        <option>New Orleans,Louisiana</option>
+        <option>New Plymouth,New Zealand</option>
+        <option>New York,N.Y.</option>
+        <option>New York Harbour,N.Y.</option>
+        <option>Newark,New Jersey</option>
+        <option>Newcastle,Australia</option>
+        <option>Newport News,Virginia</option>
+        <option>Ngqura,South Africa</option>
+        <option>Nhatrang,Vietnam</option>
+        <option>Nhava Sheva,India</option>
+        <option>Nigqura,India</option>
+        <option>Niigata,Japan</option>
+        <option>Ningbo,Zhejiang Province</option>
+        <option>Ningde,Fujian Province</option>
+        <option>Niue,Cook Islands</option>
+        <option>Nizhnevartovsk,Russia</option>
+        <option>Nizhny Novgorod,Russia</option>
+        <option>Nizhny Tagil,Russia</option>
+        <option>Nogales,Mexico</option>
+        <option>Nola,Italy</option>
+        <option>Norfolk,Virginia</option>
+        <option>Noro,Solomon Islands</option>
+        <option>Norrkoping,Sweden</option>
+        <option>Northlake,United States</option>
+        <option>Nossi-Be,Madagascar</option>
+        <option>Nosy Be,Madagascar</option>
+        <option>Nottingham,U.K.</option>
+        <option>Nouadhibou,Mauritania</option>
+        <option>Nouakchott,Mauritania</option>
+        <option>Noumea,New Caledonia</option>
+        <option>Novgorod,Russia</option>
+        <option>Novokuznetsk,Mexico</option>
+        <option>Novorossiysk,Russia</option>
+        <option>Novorosyjsk,Russia</option>
+        <option>Novosibirsk,Russia</option>
+        <option>Noyabrjsk,Russia</option>
+        <option>Nsict,India</option>
+        <option>Nuernberg,Germany</option>
+        <option>Nuevo Laredo,Mexico</option>
+        <option>Nukualofa,Tonga</option>
+        <option>Oakland,California</option>
+        <option>Oamaru,New Zealand</option>
+        <option>Odessa,Ukraine</option>
+        <option>Oita,Japan</option>
+        <option>Okayama,Japan</option>
+        <option>Okinawa,Japan</option>
+        <option>Omaezaki,Japan</option>
+        <option>Omaha,Nebraska</option>
+        <option>Omsk,Russia</option>
+        <option>Onahama,Japan</option>
+        <option>Onne,Nigeria</option>
+        <option>Onsan,South Korea</option>
+        <option>Oporto,Portugal</option>
+        <option>Oran,Algeria</option>
+        <option>Oranjestad,Aruba</option>
+        <option>Orlando,Florida</option>
+        <option>Orleans,France</option>
+        <option>Orobay,Papua New Guinea</option>
+        <option>Orsa,Russia</option>
+        <option>Orzea,Russia</option>
+        <option>Osaka,Japan</option>
+        <option>Osh,Kyrgyzstan</option>
+        <option>Oslo,Norway</option>
+        <option>Otake,Japan</option>
+        <option>Otalu,Japan</option>
+        <option>Otaru,Japan</option>
+        <option>Oxford,U.K.</option>
+        <option>Padang,Indonesia</option>
+        <option>Pagny,France</option>
+        <option>Pago Pago,American Samoa</option>
+        <option>Paita,Peru</option>
+        <option>Palembang,Indonesia</option>
+        <option>Palermo,Italy</option>
+        <option>Palmerston North,New Zealand</option>
+        <option>Panama,Panama</option>
+        <option>Panama Canal,Panama</option>
+        <option>Panama City,Panama</option>
+        <option>Panjang,Indonesia</option>
+        <option>Panyu,China</option>
+        <option>Papeete,Tahiti</option>
+        <option>Papsa,Panama</option>
+        <option>Paramaribo,Surinam</option>
+        <option>Paranagua,Brazil</option>
+        <option>Paris,France</option>
+        <option>Parma (Inland Point),Italy</option>
+        <option>Pasir Gudang,Malaysia</option>
+        <option>Patparganj,India</option>
+        <option>Pavlodar,Kazakhstan</option>
+        <option>Pearl River Delta,China</option>
+        <option>Pecem,Brazil</option>
+        <option>Pekanbaru,Indonesia</option>
+        <option>Pemba,Mozambique</option>
+        <option>Penang,Malaysia</option>
+        <option>Penghu,Guangdong Province</option>
+        <option>Perm,Russia</option>
+        <option>Perth,Australia</option>
+        <option>Peshawar,Pakistan</option>
+        <option>Petropavlosk,Russia</option>
+        <option>Philadelphia,Pennsylvania</option>
+        <option>Philipsburg,ST. Maarten</option>
+        <option>Phnom Penh,Cambodia</option>
+        <option>Phoenix,United States</option>
+        <option>Phuoc Long,Vietnam</option>
+        <option>Pilar,Argentina</option>
+        <option>Pinghai,Guangdong Province</option>
+        <option>Pingzhou,Hunan Province</option>
+        <option>Pipavav,India</option>
+        <option>Piraeus,Greece</option>
+        <option>Pisa,Italy</option>
+        <option>Pittsburgh,Pennsylvania</option>
+        <option>Ploce,Croatia</option>
+        <option>Plymouth,Trinidad</option>
+        <option>Podgorica,Montenegro</option>
+        <option>Pohang,South Korea</option>
+        <option>Pohnpei,Micronesia Islands</option>
+        <option>Point A Pitre,Guadeloupe</option>
+        <option>Point Lisas,Trinidad</option>
+        <option>Pointe Blanche,Caribbean</option>
+        <option>Pointe Des Galets,Reunion Islands</option>
+        <option>Pointe Noire,Congo</option>
+        <option>Pointe-A-Pitre,Leeward Island</option>
+        <option>Pomezia,Italy</option>
+        <option>Ponce,Puerto Rico</option>
+        <option>Pontianak,Indonesia</option>
+        <option>Pori,Finland</option>
+        <option>Port Alma,Queensland</option>
+        <option>Port Cabello,Venezuela</option>
+        <option>Port Chalmers,New Zealand</option>
+        <option>Port Des Galets,Africa</option>
+        <option>Port Elizabeth,South Africa</option>
+        <option>Port Everglades,Florida</option>
+        <option>Port Gentil,Gabon</option>
+        <option>Port Harcourt,Nigeria</option>
+        <option>Port Hedland,Australia</option>
+        <option>Port Kasim,Pakistan</option>
+        <option>Port Kembla,Australia</option>
+        <option>Port Klang,Malaysia</option>
+        <option>Port Klang (North),Malaysia</option>
+        <option>Port Klang (West),Malaysia</option>
+        <option>Port Limon,Costa Rica</option>
+        <option>Port Lisas,Panama</option>
+        <option>Port Louis,Mauritius Is.</option>
+        <option>Port Moresby,Papua New Guinea</option>
+        <option>Port Muhammad Bin Qasim,India</option>
+        <option>Port Noire,Congo</option>
+        <option>Port of Spain,Trinidad</option>
+        <option>Port Pirie,South Australia</option>
+        <option>Port Qasim,Pakistan</option>
+        <option>Port Rashid,United Arab Emirates</option>
+        <option>Port Reunion,South Africa</option>
+        <option>Port Said,Egypt</option>
+        <option>Port Sousse,Tunisia</option>
+        <option>Port Sudan,Sudan</option>
+        <option>Port Suez,Egypt</option>
+        <option>Port Sultan Qaboos,Oman</option>
+        <option>Port Victoria,East Africa</option>
+        <option>Port Vila,Vanuatu</option>
+        <option>Port-Au-Prince,Haiti</option>
+        <option>Portland,Oregon</option>
+        <option>Porto,Portugal</option>
+        <option>Porto Alegre,Brazil</option>
+        <option>Portsmouth,Virginia</option>
+        <option>Posorja,Ecuador</option>
+        <option>Poti,Georgia</option>
+        <option>Potianak,Indonesia</option>
+        <option>Poznan,Poland</option>
+        <option>Prague,Czech Republic</option>
+        <option>Praia,Cape Varde</option>
+        <option>Praia Mole,Brazil</option>
+        <option>Prato (Inland Point),Italy</option>
+        <option>Pretoria,Mozambique</option>
+        <option>Prince Rupert,Canada</option>
+        <option>Prishtina,Serbia</option>
+        <option>Pristina,Kosovo</option>
+        <option>Progreso,Mexico</option>
+        <option>Providence,Kentucky</option>
+        <option>Provinciales,Provinciales</option>
+        <option>Pskov,Russia</option>
+        <option>Pudong,Jiangsu Province</option>
+        <option>Pudong,Shanghai</option>
+        <option>Puerto Angamos,Peru</option>
+        <option>Puerto Armuelles,Panama</option>
+        <option>Puerto Bolivar,Colombia</option>
+        <option>Puerto Cabello,Venezuela</option>
+        <option>Puerto Caldera,Costa Rica</option>
+        <option>Puerto Coronel,Chile</option>
+        <option>Puerto Cortes,Honduras</option>
+        <option>Puerto Limon,Costa Rica</option>
+        <option>Puerto Madryn,Argentina</option>
+        <option>Puerto Moin,United States</option>
+        <option>Puerto Montt,Chile</option>
+        <option>Puerto Morelos,Mexico</option>
+        <option>Puerto Plata,Dominican Republic</option>
+        <option>Puerto Quetzal (San Jose),Guatemala</option>
+        <option>Puerto Sucre,Venezuela</option>
+        <option>Puinhon,Vietnam</option>
+        <option>Pune,India</option>
+        <option>Puning,Guangdong Province</option>
+        <option>Punta Arenas,Chile</option>
+        <option>Puntarenas,Costa Rica</option>
+        <option>Puqi,Zhejiang Province</option>
+        <option>Putian,Fujian Province</option>
+        <option>Pyeongtaek,South Korea</option>
+        <option>Qesim Island,United Arab Emirates</option>
+        <option>Qingdao,Shandong Province</option>
+        <option>Qingpu,Shanghai</option>
+        <option>Qingyuan,Guangdong Province</option>
+        <option>Qinhuangdao,Hebei Province</option>
+        <option>Qinzhou,Guangxi Province</option>
+        <option>Quang Ninh,Vietnam</option>
+        <option>Quanzhou,Fujian Province</option>
+        <option>Quelimane,Mozambique</option>
+        <option>Queretaro,Mexico</option>
+        <option>Quertaro,Mexico</option>
+        <option>Quezaltenango,Guatemala</option>
+        <option>Quinhon,Vietnam</option>
+        <option>Quito,Ecuador</option>
+        <option>Quzai,Lebanon</option>
+        <option>Quzhou,Zhejiang Province</option>
+        <option>Rabaul,Papua New Guinea</option>
+        <option>Radom,Poland</option>
+        <option>Raleigh,North Carolina</option>
+        <option>Rarotonga,Cook Islands</option>
+        <option>Ras Al Khaimah,United Arab Emirates</option>
+        <option>Ras Lanuf,Libya</option>
+        <option>Rauma,Finland</option>
+        <option>Ravenna,Italy</option>
+        <option>Rayong,Thailand</option>
+        <option>Recife,Brazil</option>
+        <option>Regina,Italy</option>
+        <option>Reunion,Reunion Islands</option>
+        <option>Reykjavik,Iceland</option>
+        <option>Richards Bay,South Africa</option>
+        <option>Richmond,Virginia</option>
+        <option>Ried,Austria</option>
+        <option>Riga,Latvia</option>
+        <option>Rijeka,Croatia</option>
+        <option>Rio de Janeiro,Brazil</option>
+        <option>Rio Grande,Brazil</option>
+        <option>Rio Grande (A),Argentina</option>
+        <option>Rio Grande Do Sul,Brazil</option>
+        <option>Rio Haina,Dominican Republic</option>
+        <option>Riyadh,Saudi Arabia</option>
+        <option>Rizhao,Shandong Province</option>
+        <option>Roadtown,Tortola</option>
+        <option>Roanne,France</option>
+        <option>Rochelle,United States</option>
+        <option>Rodman,Panama</option>
+        <option>Roenoe,Denmark</option>
+        <option>Rome,Italy</option>
+        <option>Rongqi,Guangdong Province</option>
+        <option>Rosario,Argentina</option>
+        <option>Rosarito,Mexico</option>
+        <option>Roseau,Dominica</option>
+        <option>Rostock,Germany</option>
+        <option>Rostov,Georgia</option>
+        <option>Rotorua,New Zealand</option>
+        <option>Rotterdam,Netherlands</option>
+        <option>Rouen,France</option>
+        <option>Rovno,Russia</option>
+        <option>Rudong,Jiangsu Province</option>
+        <option>Ruian,Zhejiang Province</option>
+        <option>Russe,Bulgaria</option>
+        <option>Russia,Russia</option>
+        <option>Rwanda,Africa</option>
+        <option>Ryazanj,Russia</option>
+        <option>Rzeszow,Poland</option>
+        <option>S. Vicente,Cape Varde</option>
+        <option>Sacramento,California</option>
+        <option>Saint-Etienne,France</option>
+        <option>Saipan,Marina Islands</option>
+        <option>Sakaiminato,Japan</option>
+        <option>Sakaisenboku,Japan</option>
+        <option>Sakata,Japan</option>
+        <option>Sakhalin,Russia</option>
+        <option>Salalah,Oman</option>
+        <option>Salerno,Italy</option>
+        <option>Salina Cruz,Mexico</option>
+        <option>Salomague,Philippines</option>
+        <option>Salonica,Greece</option>
+        <option>Salonika,Tanzania</option>
+        <option>Salt Lake City,United States</option>
+        <option>Salvador,Brazil</option>
+        <option>Salzburg,Austria</option>
+        <option>Samara,Russia</option>
+        <option>Samarinda,Indonesia</option>
+        <option>Samarkand,Russia</option>
+        <option>Sambeimen,Guangdong Province</option>
+        <option>Samsun,Turkey</option>
+        <option>San Antonio,Chile</option>
+        <option>San Antonio (TX),Texas</option>
+        <option>San Diego,California</option>
+        <option>San Felix,Chile</option>
+        <option>San Francisco,California</option>
+        <option>San Jose,Costa Rica</option>
+        <option>San Juan,Puerto Rico</option>
+        <option>San Lorenzo,Honduras</option>
+        <option>San Luis Colorado,Colorado</option>
+        <option>San Luis Potosi,Mexico</option>
+        <option>San Pedro,Argentina</option>
+        <option>San Pedro Sula,Honduras</option>
+        <option>San Salvador,Republic of El Salvador</option>
+        <option>San Vicente,Chile</option>
+        <option>Sana,Yemen</option>
+        <option>Sanbeimen,Guangdong Province</option>
+        <option>Sanbu,Guangdong Province</option>
+        <option>Sandakan, Sabah,Malaysia</option>
+        <option>Sanrong,Guangdong Province</option>
+        <option>Sanshan,Guangdong Province</option>
+        <option>Sanshui,Guangdong Province</option>
+        <option>Santa Cruz de Tenerife,Canary Islands</option>
+        <option>Santa Marta,Colombia</option>
+        <option>Santiago,Chile</option>
+        <option>Santo,Vanuatu</option>
+        <option>Santo Domingo,Dominican Republic</option>
+        <option>Santo Tomas de Castilla,Guatemala</option>
+        <option>Santos,Brazil</option>
+        <option>Sanya,Hainan Province</option>
+        <option>Sao Francisco Do Sul,Brazil</option>
+        <option>Sao Paulo,Brazil</option>
+        <option>Sao Tome,Western Africa</option>
+        <option>Sarajevo,Bosnia Hercegovina</option>
+        <option>Sarikei,Malaysia</option>
+        <option>Saskatoon,Canada</option>
+        <option>Savador Bahia,Brazil</option>
+        <option>Savannah,Georgia</option>
+        <option>Savannakhet,Laos</option>
+        <option>Savona,Italy</option>
+        <option>Savu Savu,Fiji Island</option>
+        <option>Seattle,Washington</option>
+        <option>Segoro,Indonesia</option>
+        <option>Semarang,Indonesia</option>
+        <option>Senboku,Japan</option>
+        <option>Sendai,Japan</option>
+        <option>Sens,France</option>
+        <option>Seoul,South Korea</option>
+        <option>Sepetiba,Brazil</option>
+        <option>Sete,France</option>
+        <option>Setubal,Portugal</option>
+        <option>Seward,Alaska</option>
+        <option>Sfax,Tunisia</option>
+        <option>Shangchuan Dao,China</option>
+        <option>Shangdong,Shandong Province</option>
+        <option>Shanghai,China</option>
+        <option>Shangqiu,Henan Province</option>
+        <option>Shantou,Guangdong Province</option>
+        <option>Shanwei,Guangdong Province</option>
+        <option>Shaoguan,Guangdong Province</option>
+        <option>Shaoxing,Zhejiang Province</option>
+        <option>Sharjah,United Arab Emirates</option>
+        <option>Shashi,Hubei Province</option>
+        <option>Shatian,Guangdong Province</option>
+        <option>Sheerness,U.K.</option>
+        <option>Shekou,Guangdong Province</option>
+        <option>Shenwan,Guangdong Province</option>
+        <option>Shenyang,Liaoning Province</option>
+        <option>Shenzhen,Guangdong Province</option>
+        <option>Shibushi,Japan</option>
+        <option>Shidao,Shandong Province</option>
+        <option>Shijiazhuang,Hebei Province</option>
+        <option>Shiliugang,Guangdong Province</option>
+        <option>Shima,Japan</option>
+        <option>Shimizu,Japan</option>
+        <option>Shimonoseki,Japan</option>
+        <option>Shiqi,Guangdong Province</option>
+        <option>Shiqiao (Pan Yu),Guangdong Province</option>
+        <option>Shishi,Fujian Province</option>
+        <option>Shitang,Guangdong Province</option>
+        <option>Shiwan,Guangdong Province</option>
+        <option>Shuaibah,Kuwait</option>
+        <option>Shuidong,Guangdong Province</option>
+        <option>Shuikou,Guangdong Province</option>
+        <option>Shunde,Guangdong Province</option>
+        <option>Shuwaikh,Kuwait</option>
+        <option>Sialkot,Pakistan</option>
+        <option>Siam,Thailand</option>
+        <option>Sibu, Sarawak,Malaysia</option>
+        <option>Sichuan,Sichuan Province</option>
+        <option>Sihanoukville,Cambodia</option>
+        <option>Sihui,Guangdong Province</option>
+        <option>Sines,Portugal</option>
+        <option>Singapore,Singapore</option>
+        <option>Sipitang,Malaysia</option>
+        <option>Skikda,Algeria</option>
+        <option>Skopje,Macedonia</option>
+        <option>Smolensk,Russia</option>
+        <option>Sochi,Russia</option>
+        <option>Socola,Romania</option>
+        <option>Sofia,Bulgaria</option>
+        <option>Sohar,Oman</option>
+        <option>Sokhna,Egypt</option>
+        <option>Somalia,Africa</option>
+        <option>Songkhla,Thailand</option>
+        <option>Sousse,Tunisia</option>
+        <option>South Caicos,Turks & Caicos</option>
+        <option>South Shields,U.K.</option>
+        <option>Southampton,U.K.</option>
+        <option>Sovgavanj,Russia</option>
+        <option>Soyo,Angola</option>
+        <option>Sparrow Point,Maryland</option>
+        <option>Split,Croatia</option>
+        <option>Sri Racha (Bangkok),Thailand</option>
+        <option>St. Barthelemy,Guadeloupe</option>
+        <option>St. Croix,Virgin Islands</option>
+        <option>St. Domingo,United States</option>
+        <option>St. George's,Grenada</option>
+        <option>St. Johns,Antigua</option>
+        <option>St. Louis,Missouri</option>
+        <option>St. Lucia,West Indies</option>
+        <option>St. Maarten,Caribbean</option>
+        <option>St. Petersburg,Russia</option>
+        <option>St. Polten,Austria</option>
+        <option>St. Thomas,Virgin Islands</option>
+        <option>Stockholm,Sweden</option>
+        <option>Stockton,California</option>
+        <option>Stoughton,United States</option>
+        <option>Stuttgart,Germany</option>
+        <option>Su Wan Na Kaed,Vietnam</option>
+        <option>Suape,Brazil</option>
+        <option>Subic Bay,Philippines</option>
+        <option>Suez Canal,Egypt</option>
+        <option>Suigang,Hunan Province</option>
+        <option>Sukhna,Egypt</option>
+        <option>Surabaya,Indonesia</option>
+        <option>Surat,India</option>
+        <option>Surgut,Russia</option>
+        <option>Suva,Fiji Island</option>
+        <option>Suzhou,Jiangsu Province</option>
+        <option>Svobodny,Russia</option>
+        <option>Swaziland,Africa</option>
+        <option>Sydney,Australia</option>
+        <option>Szczecin,Poland</option>
+        <option>Ta Kaek,Vietnam</option>
+        <option>Ta Na Lang,Vietnam</option>
+        <option>Tacoma,Washington</option>
+        <option>Taicang,Jiangsu Province</option>
+        <option>Taichung,China Taiwan</option>
+        <option>Taijiang,Fujian Province</option>
+        <option>Taipei,China Taiwan</option>
+        <option>Taiping,Guangdong Province</option>
+        <option>Taishan,Guangdong Province</option>
+        <option>Taiwan,China Taiwan</option>
+        <option>Taiyuan,Shanxi Province</option>
+        <option>Taizhou,Zhejiang Province</option>
+        <option>Takamatsu,Japan</option>
+        <option>Takoradi,Ghana</option>
+        <option>Talcahuano,Chile</option>
+        <option>Taldykorgan,Kazakhstan</option>
+        <option>Tallinn,Estonia</option>
+        <option>Tamatave,Madagascar</option>
+        <option>Tampa,Florida</option>
+        <option>Tampere,Finland</option>
+        <option>Tampico,Mexico</option>
+        <option>Tancang,Vietnam</option>
+        <option>Tanga,Tanzania</option>
+        <option>Tanger-Med,Morocco</option>
+        <option>Tanggu,Tianjin</option>
+        <option>Tangier,Morocco</option>
+        <option>Tangshan,Hebei Province</option>
+        <option>Tanjung Emas,Indonesia</option>
+        <option>Tanjung Manis,Malaysia</option>
+        <option>Tanjung Pelepas,Malaysia</option>
+        <option>Tao Yuan,China Taiwan</option>
+        <option>Taranto,Italy</option>
+        <option>Tarawa,Kirbati</option>
+        <option>Tarnobrzeg,Poland</option>
+        <option>Tarragona,Spain</option>
+        <option>Tashkent,Uzbekistan</option>
+        <option>Tauranga,New Zealand</option>
+        <option>Tawau,Malaysia</option>
+        <option>Tbilisi,Georgia</option>
+        <option>Tcbuen,Colombia</option>
+        <option>Tecate,Mexico</option>
+        <option>Teesport,U.K.</option>
+        <option>Tegucigalpa,Honduras</option>
+        <option>Tekirdag,Turkey</option>
+        <option>Tel Aviv,Israel</option>
+        <option>Tema,Ghana</option>
+        <option>Tenerife,Canary Islands</option>
+        <option>Teplice,Czech Republic</option>
+        <option>Tequcigalpa,Honduras</option>
+        <option>Terespol,Poland</option>
+        <option>Terport,Paraguay</option>
+        <option>Thamesport,U.K.</option>
+        <option>The Valley,Anguilla</option>
+        <option>Thessaloniki,Greece</option>
+        <option>Thilawa,Burma</option>
+        <option>Tijuana,Mexico</option>
+        <option>Tilbury,U.K.</option>
+        <option>Timaru,New Zealand</option>
+        <option>Tincan,Nigeria</option>
+        <option>Tinian,Micronesia Islands</option>
+        <option>Tirana,Albania</option>
+        <option>Toamasina,Madagascar</option>
+        <option>Tobata,Japan</option>
+        <option>Tobruk,Africa</option>
+        <option>Togliatti,Russia</option>
+        <option>Tokmak,Kyrgyzstan</option>
+        <option>Tokushima,Japan</option>
+        <option>Tokuyama,Japan</option>
+        <option>Tokyo,Japan</option>
+        <option>Toljati,Russia</option>
+        <option>Tomakomai,Japan</option>
+        <option>Tomsk,Russia</option>
+        <option>Tongan,Fujian Province</option>
+        <option>Tonglin,Anhui Province</option>
+        <option>Tonglu,Zhejiang Province</option>
+        <option>Tongshen,Hubei Province</option>
+        <option>Torghundi,Afghanistan</option>
+        <option>Toronto,Ontario</option>
+        <option>Torres Strait,Australia</option>
+        <option>Torun,Poland</option>
+        <option>Tosu,Japan</option>
+        <option>Townsville,Australia</option>
+        <option>Toyama,Japan</option>
+        <option>Toyamashiniko,Japan</option>
+        <option>Toyohashi,Japan</option>
+        <option>Toytepa,Uzbekistan</option>
+        <option>Trabzon,Turkey</option>
+        <option>Trieste,Italy</option>
+        <option>Trinidad,Caribbean</option>
+        <option>Tripoli,Libya</option>
+        <option>Trizt,Turkey</option>
+        <option>Troyes,France</option>
+        <option>Truk,Marina Islands</option>
+        <option>Tsuruga,Japan</option>
+        <option>Tulear,Madagascar</option>
+        <option>Tumen,Jilin Province</option>
+        <option>Tunis,Tunisia</option>
+        <option>Turgundi,Russia</option>
+        <option>Turku,Finland</option>
+        <option>Tuticorin,India</option>
+        <option>Tynda,Russia</option>
+        <option>Tyumen,Russia</option>
+        <option>Ube,Japan</option>
+        <option>Ufa,Russia</option>
+        <option>Ujung Pandang,Indonesia</option>
+        <option>Ulaan Baatar,Mongolia</option>
+        <option>Ulan Ude,Russia</option>
+        <option>Uljanovsk,Russia</option>
+        <option>Ulm,Germany</option>
+        <option>Ulsan,South Korea</option>
+        <option>Umm Qasr,Iraq</option>
+        <option>Uralsk,Kazakhstan</option>
+        <option>Urumqi,Xinjiang Province</option>
+        <option>Ushuaia,Argentina</option>
+        <option>Ussuryisk,Russia</option>
+        <option>Ust-Kamenogorsk,Kazakhstan</option>
+        <option>Vainikkala,Finland</option>
+        <option>Valence,France</option>
+        <option>Valencia,Spain</option>
+        <option>Valletta,Malta</option>
+        <option>Valparaiso,Chile</option>
+        <option>Vancouver,British Columbia</option>
+        <option>Vanino,Russia</option>
+        <option>Varna,Bulgaria</option>
+        <option>Vavau,Tonga</option>
+        <option>Venezia,Italy</option>
+        <option>Venice,Italy</option>
+        <option>Vennica,Russia</option>
+        <option>Vera Cruz,Mexico</option>
+        <option>Verino,Russia</option>
+        <option>Vernon,United States</option>
+        <option>Vesoul,France</option>
+        <option>Vict,Vietnam</option>
+        <option>Victoria,Argentina</option>
+        <option>Victoria (E.Africa),Seychelles</option>
+        <option>Vienna,Austria</option>
+        <option>Vientiane,Laos</option>
+        <option>Vieux Fort,Guadeloupe</option>
+        <option>Vigo,Spain</option>
+        <option>Vila,Vanuatu</option>
+        <option>Vila Do Conde,Brazil</option>
+        <option>Villa Nueva,Honduras</option>
+        <option>Vilnius,Lithuania</option>
+        <option>Virgin Gorda,Caribbean</option>
+        <option>Visakhapatnam,India</option>
+        <option>Vitebsk,Russia</option>
+        <option>Vitoria,Brazil</option>
+        <option>Vizag,India</option>
+        <option>Vladivostok,Russia</option>
+        <option>Vohemar,Madagascar</option>
+        <option>Volgogard,Russia</option>
+        <option>Vologda,Russia</option>
+        <option>Volos,Greece</option>
+        <option>Voltri,Italy</option>
+        <option>Voronez,Russia</option>
+        <option>Vostochny,Russia</option>
+        <option>Vungtau,Vietnam</option>
+        <option>Wai Gao Qiao,Shanghai</option>
+        <option>Wakayama,Japan</option>
+        <option>Wallis/Futuna,Micronesia Islands</option>
+        <option>Walvis Bay,Namiba</option>
+        <option>Wanganui,New Zealand</option>
+        <option>Wanzai (Zhuhai),Guangdong Province</option>
+        <option>Warren,Ohio</option>
+        <option>Warri,Nigeria</option>
+        <option>Warsaw,Poland</option>
+        <option>Wasilla,Alaska</option>
+        <option>Weifang,Shandong Province</option>
+        <option>Weihai,Shandong Province</option>
+        <option>Weitou,Fujian Province</option>
+        <option>Wellington,New Zealand</option>
+        <option>Wenzhou,Zhejiang Province</option>
+        <option>West Palm Beach,Florida</option>
+        <option>Wewak,Papua New Guinea</option>
+        <option>Whangarei,New Zealand</option>
+        <option>Whitestown,United States</option>
+        <option>Wilhelmshaven,Germany</option>
+        <option>Willemstad,Netherlands Antilles</option>
+        <option>Wilmington,North Carolina</option>
+        <option>Winnipeg,Canada</option>
+        <option>Wloclawek,Poland</option>
+        <option>Wolow,Poland</option>
+        <option>Wroclaw,Poland</option>
+        <option>Wuchun,Guangdong Province</option>
+        <option>Wuhan,Hubei Province</option>
+        <option>Wuhu,Anhui Province</option>
+        <option>Wujiang,Jiangsu Province</option>
+        <option>Wulumuqi,Xinjiang Province</option>
+        <option>Wumen,Zhejiang Province</option>
+        <option>Wuxi,Jiangsu Province</option>
+        <option>Wuzhou,Guangxi Province</option>
+        <option>Xanshi,China</option>
+        <option>Xiamen,Fujian Province</option>
+        <option>Xian,Shaanxi Province</option>
+        <option>Xiandria,China</option>
+        <option>Xiangtan,Hunan Province</option>
+        <option>Xiangyu,Xiamen</option>
+        <option>Xiangzhou,Guangdong Province</option>
+        <option>Xianyang,Shaanxi Province</option>
+        <option>Xiao Cuo,Fujian Province</option>
+        <option>Xiaogan,Hubei Province</option>
+        <option>Xiaohudao,Guangdong Province</option>
+        <option>Xiaolan (Shi Qi),Guangdong Province</option>
+        <option>Xiaoshan,Zhejiang Province</option>
+        <option>Xin Sha,Guangdong Province</option>
+        <option>Xinfeng,Guangdong Province</option>
+        <option>Xingang,Tianjin</option>
+        <option>Xinhui,Guangdong Province</option>
+        <option>Xining,Qinghai Province</option>
+        <option>Xintang,Guangdong Province</option>
+        <option>Xinyou,Fujian Province</option>
+        <option>Xiuhui,Guangdong Province</option>
+        <option>Xiuyu,Liaoning Province</option>
+        <option>Xuchang,Henan Province</option>
+        <option>Xuzhou,Jiangsu Province</option>
+        <option>Yakusk,Russia</option>
+        <option>Yangjiang,Guangdong Province</option>
+        <option>Yangon,Burma</option>
+        <option>Yangpu,Hainan Province</option>
+        <option>Yangshan,Shanghai</option>
+        <option>Yangzhou,Jiangsu Province</option>
+        <option>Yantai,Shandong Province</option>
+        <option>Yantian,Guangdong Province</option>
+        <option>Yap,Micronesia Islands</option>
+        <option>Yarimca,Turkey</option>
+        <option>Yatsushiro,Japan</option>
+        <option>Yawata,Japan</option>
+        <option>Yckaterinburg,Russia</option>
+        <option>Yeochon,South Korea</option>
+        <option>Yeosu,South Korea</option>
+        <option>Yeravan,Armenia</option>
+        <option>Yi Chang,Hubei Province</option>
+        <option>Yibin,Sichuan Province</option>
+        <option>Yinchuan,Ningxia Province</option>
+        <option>Yingkou,Liaoning Province</option>
+        <option>Yiwu,Zhejiang Province</option>
+        <option>Yixing,Jiangsu Province</option>
+        <option>Yokkaichi,Japan</option>
+        <option>Yokohama,Japan</option>
+        <option>Yokosuka,Japan</option>
+        <option>Yueyang,Hunan Province</option>
+        <option>Yunfu,Guangdong Province</option>
+        <option>Yunnan,Sichuan Province</option>
+        <option>Yuyao,Zhejiang Province</option>
+        <option>Zabaykalsk,Russia</option>
+        <option>Zagreb,Croatia</option>
+        <option>Zahony,Hungary</option>
+        <option>Zambia,Africa</option>
+        <option>Zamboanga,Philippines</option>
+        <option>Zanzibar,Tanzania</option>
+        <option>Zarate,Argentina</option>
+        <option>Zarqa Free Zone,Jordan</option>
+        <option>Zashita,Kazakhstan</option>
+        <option>Zeebrugge,Belgium</option>
+        <option>Zha Pu,Zhejiang Province</option>
+        <option>Zhangjiagang,Jiangsu Province</option>
+        <option>Zhangjiakou,Jiangsu Province</option>
+        <option>Zhangzhou,Fujian Province</option>
+        <option>Zhanjiang,Guangdong Province</option>
+        <option>Zhaogang,China</option>
+        <option>Zhaoqing,Guangdong Province</option>
+        <option>Zhaoqing New Port,Guangdong Province</option>
+        <option>Zhengzhou,Henan Province</option>
+        <option>Zhenjiang,Jiangsu Province</option>
+        <option>Zhenping,Henan Province</option>
+        <option>Zhezkazgan,Kazakhstan</option>
+        <option>Zhizhudao,Guangdong Province</option>
+        <option>Zhongshan,Guangdong Province</option>
+        <option>Zhongxinzhou,Guangdong Province</option>
+        <option>Zhoushan,Zhejiang Province</option>
+        <option>Zhoutouzui,Guangdong Province</option>
+        <option>Zhuhai,Guangdong Province</option>
+        <option>Zhuhai Port (Gaolan),Guangdong Province</option>
+        <option>Zhuzhou,Hunan Province</option>
+        <option>Zibo,Shandong Province</option>
+        <option>Zimbabwe,Africa</option>
+        <option>Zlin,Belgium</option>
+        <option>Zurich,Switzerland</option>
+            </datalist>
+            <input  autoComplete="on" list="suggestions"/> 
+        </div>
+        <body>
+            <label for="Select Delivery Point"><h2>Select Delivery Point</h2></label>
+            <select name="Select Delivery Point" id="Select Delivery Point" required>
+              <option value="CFS">CFS</option>
+              <option value="FACTORY">FACTORY</option>
+              <option value="ICD">ICD</option>
+              <option value="PORT">PORT</option>
+            </select>
+          </body>
+            <body>
+              <form action="/action_page.php">
+                <label for="Pickup time"><h2>DISPATCH (date and time)</h2></label>
+                <input type="datetime-local" id="Pickup time" name="Pickup time" required>
+              </form>
+              </body>
+                  <h1><B><I>CARGO DETAILS</I></B></h1>
+                    <body>
+                      <h2>Select CONTAINER TYPE</h2>
+                      <select name="container type" id="container type" required>
+                        <option value="STANDARD 20'">STANDARD 20'</option>
+                        <option value="STANDARD 40'">STANDARD 40'</option>
+                        <option value="REEFER 20'">REEFER 20'</option>
+                        <option value="REFFER 40'">REFFER 40'</option>
+                        <option value="REEFER 40' High Cube">REEFER 40' High Cube</option>
+                        <option value="OPEN TOP 20'">OPEN TOP 20'</option>
+                        <option value="OPEN TOP 40'">OPEN TOP 40'</option>
+                        <option value="FLAT RACK 20'">FLAT RACK 20'</option>
+                        <option value="FLAT RACK 40'">FLAT RACK 40'</option>
+                        <option value="FLAT RACK 20' COLLAPSIBLE">FLAT RACK 20' COLLAPSIBLE</option>
+                        <option value="FLAT RACK 40' COLLAPSIBLE">FLAT RACK 40' COLLAPSIBLE</option>
+                        <option value="PLATFORM 20'">PLATFORM 20'</option>
+                        <option value="PLATFORM 40'">PLATFORM 40'</option>
+                        <option value="OTHER">OTHER</option>
+                      </select>
+                    </body>     
+                    <body>
+                  <form action="/action_page.php">
+                    <label for="quantity">Select QTY</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="999" required>
+                  </form>
+                  </body>
+                  <body>
+                      <h2>Gross Weight/CONTAINER</h2>
+                      <form action="/action_page.php">
+                        <label for="quantity"></label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="999999" required>
+                      </form>
+                      </body>
+                      <body>
+                          <label for="UNIT">Measure Unit</label>
+                              <select name="measure unit" id="measure unit" required>
+                              <option value=MT>MT</option>
+                              <option value=KG>KG</option>
+                          </select>
+                      </body>                   
+                          <body>
+                          <div class="container">
+                            <h2>Select Kind Of CARGO</h2>
+                            <form>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio" >HAZARDOUS
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio" checked>NON-HAZARDOUS
+                              </label>
+                            </form>
+                          </div>
+                          </body>
+                          <body>
+                      <h2>CLASSIFICATION(only if HAZ)</h2>
+                      <select name="container type" id="container type">
+                        <option value="2.1 Flammable gases">2.1 Flammable gases</option>
+                        <option value="2.2 Non-Flammable Non-Toxic gases">2.2 Non-Flammable Non-Toxic gases</option>
+                        <option value="2.3 Toxic gases">2.3 Toxic gases</option>
+                        <option value="3 Inflammable Liquids">3 Inflammable Liquids</option>
+                        <option value="4.1 Flammable Solids">4.1 Flammable Solids</option>
+                        <option value="4.2 Substance liable to spontaneous combustion">4.2 Substance liable to spontaneous combustion</option>
+                        <option value="4.3 Substance which in contact with water,emit Flammable gases">4.3 Substance which in contact with water,emit Flammable gases</option>
+                        <option value="6.1 Toxic Substances">"6.1 Toxic Substances</option>
+                        <option value="6.2 Infectious Substances">6.2 Infectious Substances</option>
+                        <option value="7 Radioactive Substances">7 Radioactive Substances</option>
+                        <option value="8 Corrosive Substances">8 Corrosive Substances</option>
+                        <option value="9 Miscellaneous Dangerous Goods">9 Miscellaneous Dangerous Goods</option>
+                      </select>
+                  </body>     
+                  <body>
+                      <form action="/action_page.php">
+                        <label for="UN no.">UN no.(only if HAZ)</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="9999">
+                      </form>
+                      </body>
+</html>

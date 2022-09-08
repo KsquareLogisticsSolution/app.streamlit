@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h2>Select CONTAINER TYPE</h2>
+        <select name="container type" id="container type" required>
+          <option value="STANDARD 20'">STANDARD 20'</option>
+          <option value="STANDARD 40'">STANDARD 40'</option>
+          <option value="REEFER 20'">REEFER 20'</option>
+          <option value="REFFER 40'">REFFER 40'</option>
+          <option value="REEFER 40' High Cube">REEFER 40' High Cube</option>
+          <option value="OPEN TOP 20'">OPEN TOP 20'</option>
+          <option value="OPEN TOP 40'">OPEN TOP 40'</option>
+          <option value="FLAT RACK 20'">FLAT RACK 20'</option>
+          <option value="FLAT RACK 40'">FLAT RACK 40'</option>
+          <option value="FLAT RACK 20' COLLAPSIBLE">FLAT RACK 20' COLLAPSIBLE</option>
+          <option value="FLAT RACK 40' COLLAPSIBLE">FLAT RACK 40' COLLAPSIBLE</option>
+          <option value="PLATFORM 20'">PLATFORM 20'</option>
+          <option value="PLATFORM 40'">PLATFORM 40'</option>
+          <option value="OTHER">OTHER</option>
+        </select>
+      </body>     
+      <body>
+    <form action="/action_page.php">
+      <label for="quantity">Select QTY</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="999" required>
+    </form>
+    </body>
+    <body>
+        <h2>Gross Weight/CONTAINER</h2>
+        <form action="/action_page.php">
+          <label for="quantity"></label>
+          <input type="number" id="quantity" name="quantity" min="1" max="999999" required>
+        </form>
+        </body>
+        <body>
+            <label for="UNIT">Measure Unit</label>
+                <select name="measure unit" id="measure unit" required>
+                <option value=MT>MT</option>
+                <option value=KG>KG</option>
+            </select>
+        </body>
+        <body>
+            <div class="container">
+              <h2>Select Your FREIGHT</h2>
+              <form>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" checked>INTERNATIONAL
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio">DOMESTIC
+                </label>
+              </form>
+            </div>
+            </body>
+            <body>
+            <div class="container">
+              <h2>Select Kind Of SHIPMENT</h2>
+              <form>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" >HAZARDOUS
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" checked>NON-HAZARDOUS
+                </label>
+              </form>
+            </div>
+            </body>
+            <body>
+        <h2>CLASSIFICATION(only if HAZ)</h2>
+        <select name="container type" id="container type" >
+          <option value="2.1 Flammable gases">2.1 Flammable gases</option>
+          <option value="2.2 Non-Flammable Non-Toxic gases">2.2 Non-Flammable Non-Toxic gases</option>
+          <option value="2.3 Toxic gases">2.3 Toxic gases</option>
+          <option value="3 Inflammable Liquids">3 Inflammable Liquids</option>
+          <option value="4.1 Flammable Solids">4.1 Flammable Solids</option>
+          <option value="4.2 Substance liable to spontaneous combustion">4.2 Substance liable to spontaneous combustion</option>
+          <option value="4.3 Substance which in contact with water,emit Flammable gases">4.3 Substance which in contact with water,emit Flammable gases</option>
+          <option value="6.1 Toxic Substances">"6.1 Toxic Substances</option>
+          <option value="6.2 Infectious Substances">6.2 Infectious Substances</option>
+          <option value="7 Radioactive Substances">7 Radioactive Substances</option>
+          <option value="8 Corrosive Substances">8 Corrosive Substances</option>
+          <option value="9 Miscellaneous Dangerous Goods">9 Miscellaneous Dangerous Goods</option>
+        </select>
+    </body>     
+    <body>
+        <form action="/action_page.php">
+          <label for="UN no.">UN no.(only if HAZ)</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="9999">
+        </form>
+        </body>
+</html>
